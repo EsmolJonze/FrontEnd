@@ -3,14 +3,13 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh ''' steps {
-         sh \'git branch\'
-}'''
-        }
+        sh '''sh \'git branch\'
+'''
       }
+    }
 
-    }
-    environment {
-      ttt = 'ttt'
-    }
   }
+  environment {
+    ttt = 'ttt'
+  }
+}
