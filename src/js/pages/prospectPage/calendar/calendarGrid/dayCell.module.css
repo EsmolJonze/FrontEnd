@@ -1,0 +1,60 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value bloobirdsNatural, grayLighter, gunmetalVeryLight from colors;
+
+._container {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+._container:not(:nth-child(7)) {
+  border-right: 1px solid gunmetalVeryLight;
+}
+
+._selected {
+  background-color: bloobirdsNatural;
+}
+._pastDate {
+  background-color: grayLighter;
+}
+/*
+dayCell: {
+  root: { ...defaultStyles.root },
+  day: {
+    ...defaultStyles.day,
+  },
+  primaryColorDay: {
+    color: cssVariables.color.gunmetal.natural,
+  },
+  secondaryColorDay: {
+    color: cssVariables.color.gunmetal.light,
+  },
+  task: {
+    marginTop: 4,
+  },
+  taskNumberColorPrimary: {
+    color: cssVariables.color.bloobirds.natural,
+    fontWeight: 1000,
+  },
+  taskNumberColorSecondary: {
+    color: cssVariables.color.gunmetal.light,
+  },
+},
+currentDayCell: {
+  root: {
+    ...defaultStyles.root,
+    backgroundColor: cssVariables.color.bloobirds.natural,
+  },
+  day: {
+    ...defaultStyles.day,
+    color: cssVariables.color.bloobirds.veryLight,
+  },
+  task: {
+    marginTop: 4,
+    fontWeight: 1000,
+    color: cssVariables.color.white.natural,
+  },
+}, */

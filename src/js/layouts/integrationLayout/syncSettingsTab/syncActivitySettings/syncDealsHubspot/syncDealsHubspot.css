@@ -1,0 +1,55 @@
+._container {
+  box-sizing: border-box;
+  padding: 24px 0 40px 0;
+  width: 640px;
+}
+
+._disabled_chip_group > p {
+  margin-bottom: 20px;
+}
+._disabled_chip_group > div > div {
+  margin-right: 12px;
+  pointer-events: none;
+}
+
+._disabled_chip_group > p {
+  margin-bottom: 20px;
+}
+._disabled_chip_group > div > div {
+  margin-right: 12px;
+  pointer-events: none;
+}
+._chipGroup > p {
+  margin-bottom: 20px;
+}
+._chipGroup > div > div {
+  margin-right: 12px;
+}
+._text {
+  box-sizing: border-box;
+  padding: 20px 0 28px 0;
+}
+._select_group {
+  margin-bottom: 40px;
+}
+._select_group > div > div {
+  margin-right: 20px;
+  width: 300px;
+}
+._callout {
+  margin-top: 20px;
+}
+._callout > div {
+  width: 100%;
+}
+._children_multiselect {
+  box-sizing: border-box;
+  padding-top: 32px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+._children_multiselect > * {
+  margin-right: 20px;
+}

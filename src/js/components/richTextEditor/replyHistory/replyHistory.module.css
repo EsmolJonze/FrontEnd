@@ -1,0 +1,25 @@
+._toggle_button {
+  text-align: center;
+  border-radius: 8px;
+  padding: 4px 6px 2px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
+  line-height: 8px;
+  background-color: var(--verySoftPeanut);
+  color: var(--peanut);
+  opacity: 0.8;
+  user-select: none;
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 1px;
+}
+
+._toggle_button:focus {
+  outline: none;
+}
+
+._toggle_button:hover {
+  opacity: 1;
+}

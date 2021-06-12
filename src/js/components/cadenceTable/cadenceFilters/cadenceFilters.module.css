@@ -1,0 +1,14 @@
+@value colors: "../../../../assets/stylesheets/colors.css";
+@value gunmetalLight, gunmetalNatural from colors;
+
+.activityFilters {
+  color: gunmetalLight;
+  font-size: 13px;
+  height: 100%;
+  margin: auto 0;
+}
+
+.elementWrapper {
+  margin-left: 8px;
+  display: inline-block;
+}

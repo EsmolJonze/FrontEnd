@@ -1,0 +1,48 @@
+._container {
+  background: var(--peanut);
+  height: 100vh;
+  padding: 24px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+._empty_space {
+  min-width: 348px;
+}
+
+._close_icon__container {
+  margin-left: auto;
+}
+
+._tab_container {
+  padding-top: 10px;
+}
+
+._tab_container > ._close_icon__container {
+  position: absolute;
+  right: 24px;
+  top: 16px;
+}
+
+._tab_container > div > div {
+  border: 0;
+}
+
+._tab_content {
+  padding-top: 20px;
+}
+
+._header__container {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+._title__container {
+  margin-left: auto;
+}

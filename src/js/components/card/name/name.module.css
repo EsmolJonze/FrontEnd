@@ -1,0 +1,18 @@
+._container {
+  text-decoration: none;
+  color: var(--bloobirds);
+  margin-right: 8px;
+  max-width: 120px;
+  text-align: justify;
+  text-overflow: ellipsis;
+}
+
+._container:hover {
+  cursor: pointer;
+}
+
+._is_complete,
+._is_complete > * {
+  text-decoration: line-through;
+  text-align: left;
+}

@@ -1,0 +1,39 @@
+._modal_section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 32px;
+}
+._modal_section > div:first-child {
+  width: 300px;
+}
+._modal_section > div:last-child {
+  width: 300px;
+}
+._section > div {
+  margin-left: 0;
+  padding-left: 0;
+}
+._modal_section_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+._modal_section_svg {
+  width: 70px;
+  height: 20px;
+  margin: 0;
+}
+._modal_section_svg > g {
+  fill: none;
+  stroke: var(--softPeanut);
+  stroke-width: 1px;
+}
+._modal_section_svg > g > path {
+  stroke-dasharray: 5, 5;
+}
+._callout {
+  margin: 0;
+}
+._callout > * {
+  width: 100%;
+}

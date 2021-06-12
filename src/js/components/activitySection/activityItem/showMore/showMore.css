@@ -1,0 +1,12 @@
+._container {
+  font-size: 13px;
+  text-transform: none;
+  cursor: pointer;
+  color: var(--bloobirds);
+  margin-top: 24px;
+}
+
+._container:hover {
+  background-color: transparent;
+  cursor: pointer;
+}

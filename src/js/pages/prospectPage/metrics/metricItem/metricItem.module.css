@@ -1,0 +1,21 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value bloobirdsNatural, gunmetalNatural from colors;
+
+._content {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 72px;
+  color: bloobirdsNatural;
+}
+
+._content:nth-child(1),
+._content:nth-child(2) {
+  margin-bottom: 15px;
+}
+
+._content:nth-child(3),
+._content:nth-child(4) {
+  font-size: 72px;
+}

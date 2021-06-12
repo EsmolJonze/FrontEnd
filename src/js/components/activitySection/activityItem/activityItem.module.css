@@ -1,0 +1,48 @@
+._card_summary {
+  border: solid 1px var(--bloobirdsSuperVeryLight);
+  background-color: var(--white);
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 4px;
+  position: relative;
+  max-width: 1280px;
+}
+
+._card_summary:last-child {
+  margin-bottom: 0;
+}
+
+._dashed_line {
+  position: absolute;
+  height: 40px;
+  width: 3px;
+  border-left: 1px dashed var(--verySoftPeanut);
+  bottom: -40px;
+  left: 40px;
+}
+
+._container {
+  background: var(--white);
+  border: 1px solid var(--veryLightBloobirds);
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(25, 145, 255, 0.084324);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+  padding: 24px;
+  text-decoration: none;
+  min-height: 72px;
+  width: 100%;
+}
+
+._container__pinned {
+  border: 1px solid var(--verySoftPeanut);
+}
+
+._main {
+  display: flex;
+  flex-direction: column;
+}

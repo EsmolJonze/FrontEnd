@@ -1,0 +1,32 @@
+._wrapper {
+  margin: 80px 36px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100% - 160px);
+}
+
+._image {
+  margin-bottom: 45px;
+  width: 140px;
+  height: 138px;
+}
+
+._text {
+  width: 684px;
+  font-size: 25px;
+  line-height: 1.28;
+  color: var(--peanut);
+  margin-bottom: 28px;
+}
+
+._button {
+  width: 336px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: var(--bloobirds);
+  color: var(--white);
+}

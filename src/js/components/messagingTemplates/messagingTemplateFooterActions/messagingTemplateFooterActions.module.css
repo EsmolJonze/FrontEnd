@@ -1,0 +1,15 @@
+.footer {
+  background-color: var(--white);
+  padding: 20px 56px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.buttons > *:first-child {
+  margin-right: 28px;
+}

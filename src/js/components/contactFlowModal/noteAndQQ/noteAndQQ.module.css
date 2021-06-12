@@ -1,0 +1,28 @@
+._content__wrapper {
+  display: flex;
+  align-items: end;
+}
+
+._textarea__wrapper {
+  margin-bottom: 72px;
+  width: 100%;
+}
+
+._content__wrapper > section:nth-child(1) {
+  min-width: 290px;
+  margin-right: 60px;
+}
+
+._content__wrapper > section:nth-child(2) {
+  min-width: 400px;
+}
+
+._section__wrapper {
+  max-height: 384px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+._section__wrapper > *:first-child > header {
+  margin-top: 0;
+}

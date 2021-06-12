@@ -1,0 +1,21 @@
+._note_message {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+._body {
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding-left: 12px;
+  justify-content: flex-start;
+  margin-top: 24px;
+}
+
+._body:empty {
+  display: none;
+}
+
+._body:last-child {
+  padding-right: 8px;
+}

@@ -1,0 +1,28 @@
+@value colors: "../../../../assets/stylesheets/colors.css";
+@value grayLighter from colors;
+
+._root {
+  height: 80px;
+  box-sizing: border-box;
+  background-color: grayLighter;
+  width: calc(100% - 96px);
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  position: fixed;
+}
+
+._btn_container {
+  width: 142px;
+  height: 40px;
+}
+
+._btn_wrapper {
+  display: flex;
+}
+
+._btn_wrapper > * {
+  margin-right: 10px;
+}

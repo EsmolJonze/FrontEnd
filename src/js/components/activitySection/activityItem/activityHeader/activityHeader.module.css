@@ -1,0 +1,110 @@
+._header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+._header_left {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+._header_right {
+  display: flex;
+  flex-direction: row;
+  min-width: fit-content;
+  flex: 0 1;
+  text-align: right;
+  justify-content: flex-end;
+  position: relative;
+  color: var(--peanut);
+}
+
+._icon {
+  position: relative;
+}
+
+._icon_direction {
+  position: absolute;
+  top: -45%;
+  right: -45%;
+}
+
+._lead_name {
+  white-space: nowrap;
+  color: var(--peanut);
+  margin: 0;
+  margin-left: 12px;
+  margin-right: 16px;
+  font-size: 14px;
+}
+
+._opportunity_name {
+  cursor: pointer;
+}
+
+._tag_status_container {
+  height: fit-content;
+  margin: auto 8px auto 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+._tag_status_text {
+  padding: 2px 25px;
+  margin: auto;
+}
+
+._titles_container {
+  display: flex;
+  color: var(--peanut);
+  flex-shrink: 0;
+  flex-direction: row;
+}
+
+._main_title {
+  margin: 0;
+  margin-left: 20px;
+  max-width: 750px;
+  font-size: 14px;
+}
+
+._link_wrapper_ml,
+._link_wrapper {
+  cursor: pointer;
+}
+
+._link_wrapper_ml {
+  margin-left: 5px;
+}
+
+._button_report_container,
+._button_reported_container,
+._button_pinned_container,
+._button_not_pinned_container {
+  margin-right: 16px;
+}
+
+._button_report_container > button,
+._button_reported_container > button,
+._button_pinned_container > button {
+  white-space: nowrap;
+}
+
+._button_reported_container {
+  background-color: var(--verySoftMelon);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+._button_pinned_container {
+  padding: 4px 0;
+  border-radius: 4px;
+}
+
+._button_pinned_container > button {
+  transform: rotate(30deg);
+}

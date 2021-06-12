@@ -1,0 +1,32 @@
+._container {
+  margin-top: 32px;
+  opacity: 0;
+  animation: fade-in 250ms ease-in-out forwards;
+  animation-delay: 200ms;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+._header {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+._header :first-child {
+  margin-right: 8px;
+}
+
+._pinned_icon_container {
+  display: inline;
+}
+
+._pinned_icon_container > svg {
+  transform: rotate(30deg);
+}

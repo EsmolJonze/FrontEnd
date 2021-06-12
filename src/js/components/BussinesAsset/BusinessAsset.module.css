@@ -1,0 +1,8 @@
+.BusinessAsset_root {
+  position: relative;
+}
+.BusinessAsset_counter {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+}

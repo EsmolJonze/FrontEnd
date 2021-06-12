@@ -1,0 +1,41 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value gunmetalLight, gunmetalNatural, bloobirdsNatural from colors;
+
+._root {
+}
+
+._title {
+  font-size: 20px;
+  text-align: center;
+  color: gunmetalNatural;
+}
+
+._text {
+  margin: 0;
+  color: gunmetalLight;
+}
+
+._spinner {
+  margin-top: 25px;
+}
+
+._download {
+  color: bloobirdsNatural;
+}
+
+._download:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+._subTitle {
+  font-size: 14px;
+  text-align: center;
+  color: gunmetalLight;
+  margin-bottom: 20px;
+}
+
+._importNameInput {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

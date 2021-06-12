@@ -1,0 +1,17 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value whiteNatural from colors;
+
+._container {
+  margin-left: 8px;
+}
+
+._optionsWrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: whiteNatural;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}

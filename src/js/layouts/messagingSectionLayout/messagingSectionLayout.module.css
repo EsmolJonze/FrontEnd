@@ -1,0 +1,41 @@
+._container {
+  height: calc(100% - 80px);
+  padding: 48px 0;
+}
+
+._info__container {
+  margin-bottom: 24px;
+}
+
+._header {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  margin-bottom: 20px;
+}
+
+._title {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+._title > h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+._filters__container {
+  display: flex;
+}
+
+._content__container {
+  display: flex;
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  ._title > h3 {
+    max-width: 170px;
+  }
+}

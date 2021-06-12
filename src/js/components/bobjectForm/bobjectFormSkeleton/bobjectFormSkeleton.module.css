@@ -1,0 +1,21 @@
+._section {
+  margin-bottom: 64px;
+}
+
+._header {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+._divider {
+  margin-bottom: 20px;
+}
+
+._content {
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 36px;
+  row-gap: 28px;
+}

@@ -1,0 +1,15 @@
+._field_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+._field_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+._field_grid_item {
+  display: flex;
+  gap: 8px;
+}

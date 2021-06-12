@@ -1,0 +1,120 @@
+._card_container {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 32px 60px 60px 60px;
+  margin-top: 20px;
+  border: 1px solid var(--verySoftCondition);
+  border-radius: 4px;
+}
+
+._card_table_container {
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: 32px;
+  margin-top: 20px;
+  border: 1px solid var(--verySoftCondition);
+  border-radius: 4px;
+  min-height: 798px;
+}
+._api_call_title {
+  display: flex;
+}
+._api_call_title > p {
+  padding-left: 12px;
+}
+._api_call_text {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+._api_call_text > p {
+  padding-bottom: 8px;
+}
+
+._sync_logs_header {
+  display: flex;
+  padding: 0 60px;
+  justify-content: space-between;
+}
+._sync_logs_header > div {
+  display: flex;
+}
+._sync_logs_header > div:first-child > button {
+  width: 102px;
+}
+._sync_logs_header > div:first-child > p {
+  padding-left: 12px;
+  padding-right: 16px;
+}
+._sync_logs_header > div:last-child > p {
+  padding-top: 4px;
+  padding-left: 8px;
+}
+._sync_logs_table_header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+._sync_logs_content {
+  box-sizing: border-box;
+  padding: 216px 227px 263px 227px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+._sync_logs_content_img {
+  margin-bottom: 20px;
+}
+._sync_logs_content > p {
+  padding-bottom: 12px;
+}
+._sync_logs_table {
+  box-sizing: border-box;
+  padding-top: 36px;
+}
+
+._sync_logs_table_table {
+  box-sizing: border-box;
+}
+._sync_logs_table_filters {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: var(--lightestBloobirds);
+  height: 45px;
+  padding: 0 40px;
+}
+._sync_logs_time_filter {
+  display: flex;
+  align-items: center;
+}
+._sync_logs_separator {
+  width: 1px;
+  height: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  position: relative;
+  bottom: 2px;
+  background-color: var(--lightPeanut);
+}
+._sync_logs_object_filter {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+._sync_logs_status_filter {
+  display: flex;
+  align-items: center;
+}
+._sync_logs_table_body {
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(92, 92, 255, 0.0837296);
+  border-radius: 4px;
+}
+._pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}

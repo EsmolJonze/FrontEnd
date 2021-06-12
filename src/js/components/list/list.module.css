@@ -1,0 +1,40 @@
+._header {
+  margin-top: 26px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+
+._header:nth-child(1) {
+  margin-top: 0;
+}
+
+._header > * + * {
+  margin-left: 6px;
+}
+
+._list {
+  padding: 0;
+  margin: 0;
+}
+
+._list > * + * {
+  margin-top: 8px;
+}
+
+._show_button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+  margin: 16px auto 0 auto;
+  padding: 0;
+}
+
+._show_button:focus {
+  outline: none;
+}
+
+._list_section {
+  padding-bottom: 40px;
+}

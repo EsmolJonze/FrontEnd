@@ -1,0 +1,98 @@
+@value colors: "../../../assets/stylesheets/colors.css";
+@value bloobirdsSuperVeryLight, bloobirdsLightest, gunmetalNatural, gunmetalLight from colors;
+
+._container {
+  position: relative;
+  border-bottom: 1px solid #d6d7d8;
+  background-color: bloobirdsSuperVeryLight;
+  width: auto;
+  padding: 44px 38px;
+  min-height: 400px;
+  position: relative;
+}
+
+._header {
+  border-spacing: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: bloobirdsSuperVeryLight;
+}
+
+._noDisplay {
+  display: none;
+}
+
+._viewTableSubHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+._title {
+  font-size: 20px;
+  line-height: 41px;
+  color: gunmetalNatural;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1440px) {
+  ._title {
+    max-width: 310px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  ._title {
+    font-size: 16px;
+  }
+}
+
+._hasActions {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+._header_left {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  max-width: 45%;
+}
+
+._header_right {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  max-width: 55%;
+}
+
+._box {
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+._searchBar__container {
+  width: 200px;
+  margin-right: 16px;
+}
+
+._table {
+  width: 99.9% !important;
+}
+
+._counter__container {
+  background-color: bloobirdsLightest;
+  border-radius: 4px;
+  color: gunmetalLight;
+  composes: smallFont from '../../../assets/stylesheets/fonts.css';
+  margin-left: 8px;
+  padding: 4px 8px;
+  white-space: nowrap;
+}

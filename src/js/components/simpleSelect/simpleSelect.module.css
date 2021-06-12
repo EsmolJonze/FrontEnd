@@ -1,0 +1,9 @@
+.displayValue {
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.dropdown {
+  max-height: 256px;
+  overflow-y: scroll;
+}

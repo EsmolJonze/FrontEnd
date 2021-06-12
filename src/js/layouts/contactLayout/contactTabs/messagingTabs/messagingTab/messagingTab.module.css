@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.title {
+  flex-shrink: 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 16px;
+  width: 100%;
+}
+
+.emailButton {
+  margin-left: 16px;
+}

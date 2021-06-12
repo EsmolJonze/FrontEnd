@@ -1,0 +1,91 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value gunmetalLight, gunmetalNatural, bloobirdsNatural, bloobirdsVeryLight, bloobirdsVeryLightOpacity, whiteNatural from colors;
+
+.title {
+  color: gunmetalNatural;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text {
+  margin: 0px;
+  font-size: 14px;
+  color: gunmetalLight;
+}
+
+.textBold {
+  margin: 0px;
+  font-size: 14px;
+  color: gunmetalNatural;
+}
+
+.customCheckboxLabel {
+  width: 240px;
+  height: 56px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 0 8px;
+  padding: 0 16px 0 8px;
+  width: auto;
+}
+
+.selectedCustomCheckboxLabel {
+  width: 240px;
+  height: 56px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 0 8px;
+  width: auto;
+  padding: 0 16px 0 8px;
+  background-color: bloobirdsVeryLight;
+}
+
+.customFormLabel__root {
+  width: 240px;
+  height: 56px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 0 8px;
+}
+
+.customFormLabel__selectedRoot {
+  width: 240px;
+  height: 56px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 0 8px;
+  background-color: bloobirdsVeryLight;
+}
+
+.customFormLabel__checkedIcon {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: bloobirdsNatural;
+  border: solid 1px bloobirdsNatural;
+  transition: all 500ms;
+}
+
+.customFormLabel__icon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.4;
+  border-radius: 12px;
+  border: solid 1px bloobirdsNatural;
+  background-color: whiteNatural;
+  transition: all 500ms;
+}
+
+.customFormLabel__secondary {
+  color: bloobirdsNatural !important;
+}
+
+.customFormLabel__secondary :hover {
+  background-color: bloobirdsVeryLightOpacity !important;
+}
+
+.customFormLabel__label {
+  margin: 0px;
+  height: 20px;
+  white-space: nowrap;
+}

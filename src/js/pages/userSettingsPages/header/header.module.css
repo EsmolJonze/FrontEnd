@@ -1,0 +1,32 @@
+._header__container {
+  width: 100%;
+  position: fixed;
+  height: 64px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.123);
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  background-color: var(--white);
+  z-index: 1;
+}
+
+._back__button {
+  margin-left: 32px;
+  margin-right: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  letter-spacing: 0.8px;
+}
+
+._back__button > svg {
+  margin-right: 10px;
+}
+
+._back__button:hover {
+  cursor: pointer;
+}
+
+._title__container {
+  flex-grow: 1;
+}

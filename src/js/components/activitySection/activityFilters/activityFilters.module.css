@@ -1,0 +1,9 @@
+._filter_date {
+  margin-bottom: 4px;
+}
+
+._filters_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

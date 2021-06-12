@@ -1,0 +1,26 @@
+._container {
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin: 4px;
+}
+
+._container__wrapper {
+  position: fixed;
+  height: 32px;
+  width: 140px;
+}
+
+._link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--peanut);
+  margin: 14px 10px;
+  letter-spacing: initial;
+  white-space: nowrap;
+}
+
+._link:hover {
+  color: var(--bloobirds);
+}

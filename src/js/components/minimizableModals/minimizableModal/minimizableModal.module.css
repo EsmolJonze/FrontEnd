@@ -1,0 +1,50 @@
+._container {
+  background-color: white;
+  overflow-y: auto;
+  padding: 24px 64px;
+}
+
+._header__container {
+  width: 100%;
+  height: 56px;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  box-sizing: border-box;
+  background-color: var(--veryLightBloobirds);
+}
+
+._header__info {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+._header__info button {
+  margin-right: 8px;
+}
+
+._header_companyName {
+  display: flex;
+  align-items: center;
+  padding-right: 12px;
+  margin-right: 12px;
+  height: 24px;
+  border-right: 1px solid var(--verySoftBloobirds);
+  cursor: pointer;
+}
+
+._header_companyName > span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+._footerActions__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+._footer__container {
+  width: 100%;
+}

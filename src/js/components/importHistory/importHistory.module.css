@@ -1,0 +1,72 @@
+@value colors: "../../../assets/stylesheets/colors.css";
+@value bloobirdsLightest, bloobirdsSuperVeryLight, grayLighter, gunmetalLight, gunmetalNatural from colors;
+
+._backToList__container {
+  display: flex;
+  margin-top: 10px;
+}
+
+._container {
+  position: relative;
+  width: auto;
+  padding: 0 38px;
+  min-height: 400px;
+  border-bottom: 1px solid var(--softGray);
+  background-color: var(--lighterGray);
+  height: 100%;
+}
+
+._counter__container {
+  background-color: var(--lightestBloobirds);
+  border-radius: 4px;
+  color: var(--lightPeanut);
+  composes: smallFont from '../../../assets/stylesheets/fonts.css';
+  margin-left: 8px;
+  padding: 4px 8px;
+  white-space: nowrap;
+  height: 16px;
+}
+
+._header_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -8px;
+}
+
+._header_left_panel_text {
+  font-size: 20px;
+  line-height: 41px;
+  color: var(--peanut);
+}
+
+._header_left_panel_box {
+  margin: auto 0;
+}
+
+._header_panel_container {
+  display: flex;
+  height: 46px;
+  align-items: center;
+}
+
+._header_right_panel_button_container {
+  width: 185px;
+  margin-left: 8px;
+}
+
+._header_wrapper {
+  display: flex;
+  flex-flow: column;
+}
+
+._search_bar_container {
+  max-width: 220px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+._backButton {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-around;
+}

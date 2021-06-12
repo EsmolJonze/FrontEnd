@@ -1,0 +1,30 @@
+._container {
+  flex-basis: 100%;
+}
+
+._container > *:first-child {
+  margin-bottom: 8px;
+}
+
+._body {
+  background-color: var(--white);
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(92, 92, 255, 0.0837296);
+  border-radius: 4px;
+  padding: 24px 24px 28px;
+  margin-bottom: 16px;
+}
+
+._body_link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  text-decoration: none;
+}
+
+._body_link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--bloobirds);
+}

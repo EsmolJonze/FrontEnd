@@ -1,0 +1,10 @@
+.smallFont {
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.buttonSmallFont {
+  composes: smallFont;
+  text-transform: uppercase;
+}

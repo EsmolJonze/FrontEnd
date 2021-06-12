@@ -1,0 +1,9 @@
+._statistics_item {
+  display: flex;
+}
+
+._statistics_item > p {
+  cursor: default;
+  margin-left: 4px;
+  margin-right: 12px;
+}

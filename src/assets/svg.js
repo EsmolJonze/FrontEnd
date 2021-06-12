@@ -1,0 +1,14 @@
+export { ReactComponent as BirdsSvg } from './birds.svg';
+export { ReactComponent as GoogleSvg } from './google.svg';
+export { ReactComponent as LogoSvg } from './logo.svg';
+export { ReactComponent as NoFiltersSvg } from './filtersNone.svg';
+export { ReactComponent as NoPermissionSvg } from './noPermissionMessage.svg';
+export { ReactComponent as NoUpdates } from './noUpdates.svg';
+export { ReactComponent as SearchColumns } from './searchcolumns.svg';
+export { ReactComponent as SearchData } from './searchdata.svg';
+export { ReactComponent as SearchFilters } from './searchfilters.svg';
+export { ReactComponent as SearchPeopleSvg } from './search-people.svg';
+export { ReactComponent as MicrosoftSvg } from './ms_logo.svg';
+export { ReactComponent as Errors } from './errors.svg';
+export { ReactComponent as Disconnected } from './disconnected.svg';
+export { ReactComponent as SearchLogs } from './searchLogs.svg';

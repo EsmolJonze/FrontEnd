@@ -1,0 +1,23 @@
+{
+  "column": {
+    "title": "Columns",
+    "description": "Add fields to build this view with the columns you want. Fields you select here can be visualized in the selected view.",
+    "section1": {
+      "title": "Add fields from:"
+    },
+    "section2": {
+      "title": "Columns already added:",
+      "description": "Use the arrows sort the columns in the table."
+    }
+  },
+  "filter": {
+    "title": "Filters",
+    "description": "Add filters to narrow down your data.",
+    "section1": {
+      "title": "Add filters from:"
+    },
+    "section2": {
+      "title": "Filters already added:"
+    }
+  }
+}

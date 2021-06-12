@@ -1,0 +1,52 @@
+._alert_banner_container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  color: var(--peanut);
+  font-family: var(--fontFamily);
+  font-size: 15px;
+  line-height: 20px;
+  width: 100%;
+  padding: 0 16px;
+  justify-content: center;
+  height: 40px;
+  border-bottom: 1px solid;
+}
+
+.alert {
+  background-color: rgba(255, 232, 179, 0.4);
+  border-color: rgba(255, 189, 25, 0.4);
+}
+
+.negative {
+  background-color: rgba(255, 179, 194, 0.4);
+  border-color: rgba(255, 102, 133, 0.4);
+}
+
+.positive {
+  background-color: rgba(218, 240, 193, 0.4);
+  border-color: rgba(213, 225, 241, 0.4);
+}
+
+.neutral {
+  background-color: rgba(212, 224, 241, 0.4);
+  border-color: rgba(197, 209, 221, 0.4);
+}
+
+._hided {
+  display: none;
+}
+
+._alert_banner_text {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._alert_banner_icon {
+  float: right;
+  width: 100%;
+}

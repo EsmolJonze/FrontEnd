@@ -1,0 +1,56 @@
+._wrapper {
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid var(--verySoftCondition);
+  padding: 32px 60px;
+}
+
+._subtitle {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+._subtitle > svg {
+  margin-right: 12px;
+}
+
+._content {
+  padding: 32px;
+  border-radius: 4px;
+  border: 1px solid var(--verySoftCondition);
+  margin-bottom: 32px;
+}
+
+._description {
+  margin-bottom: 24px;
+}
+
+._description > p {
+  margin-bottom: 8px;
+  line-height: 20px;
+  max-width: 75ch;
+}
+
+._checkbox_wrapper {
+  display: flex;
+}
+
+._checkbox_wrapper > div {
+  width: auto;
+  background: none;
+}
+
+._checkbox_wrapper > div:hover {
+  background: none;
+}
+
+._separator {
+  margin: 20px 0;
+  border-top: 1px solid var(--lightPeanut);
+}
+
+._duplicate_warning {
+  margin-left: 8px;
+  display: inline;
+}

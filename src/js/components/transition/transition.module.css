@@ -1,0 +1,15 @@
+._fade_enter {
+  opacity: 0;
+}
+._fade_enter_active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+._fade_exit {
+  opacity: 1;
+}
+._fade_exit_active {
+  opacity: 0;
+  transition: opacity 300ms;
+}

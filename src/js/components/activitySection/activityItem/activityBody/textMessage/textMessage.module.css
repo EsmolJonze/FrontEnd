@@ -1,0 +1,11 @@
+._text_message {
+  white-space: pre-wrap;
+  font-size: 14px;
+  overflow: hidden;
+  color: var(--peanuts);
+  line-height: 24px;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}

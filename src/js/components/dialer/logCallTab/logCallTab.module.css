@@ -1,0 +1,63 @@
+._container {
+  padding-top: 20px;
+}
+._buttons__container {
+  padding-top: 26px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+._input__container__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+._company_link {
+  border: 1px solid #94a5b4;
+  margin-left: 4px;
+  margin-bottom: 4px;
+  width: 32px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+._company_link:hover {
+  background-color: #5f6770;
+}
+
+._input__container,
+._input__container__link {
+  margin-bottom: 16px;
+}
+
+._phone__container {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  background: rgba(26, 26, 26, 0.3181);
+  border-radius: 4px;
+}
+
+._phone_number {
+  background: none;
+  border: 0;
+  color: var(--melon);
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+  width: 100%;
+  text-align: center;
+}
+
+._phone_number:focus {
+  outline: none;
+}
+
+._button__wrapper._disabled > button {
+  color: var(--white);
+  opacity: 0.6;
+}

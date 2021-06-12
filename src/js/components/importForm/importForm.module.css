@@ -1,0 +1,13 @@
+@value colors: '../../../assets/stylesheets/colors.css';
+@value whiteNatural from colors;
+
+._root {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  background-color: whiteNatural;
+  margin-top: 80px;
+  overflow-y: scroll;
+}

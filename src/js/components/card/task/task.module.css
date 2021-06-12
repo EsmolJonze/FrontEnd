@@ -1,0 +1,53 @@
+._container {
+  margin: auto;
+  width: 100%;
+}
+
+._complete_button_wrapper {
+  margin-right: 8px;
+}
+
+._task_name_wrapper {
+  margin-right: 8px;
+  max-width: 182px;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+._company_source {
+  margin-left: 8px;
+  margin-right: 24px;
+  min-width: 64px;
+  text-align: left;
+}
+
+._last_attempt_wrapper {
+  text-align: right;
+}
+
+._overdue_wrapper {
+  margin-left: 8px;
+}
+
+._edit_button {
+  margin-left: 10px;
+}
+
+._timeZoneLocation {
+  margin-right: 12px;
+}
+
+._separator {
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 1279px) {
+  ._company_name {
+    width: 70px;
+  }
+}

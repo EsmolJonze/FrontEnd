@@ -1,0 +1,54 @@
+.bell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  transform-origin: top center;
+}
+
+.pending {
+  animation: bellshake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+.count {
+  cursor: pointer;
+  position: absolute;
+  top: 24px;
+  left: 12px;
+  font-size: 13px;
+  line-height: 16px;
+  background: var(--bloobirds);
+  color: var(--white);
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+@keyframes bellshake {
+  0% {
+    transform: rotate(0);
+  }
+  15% {
+    transform: rotate(5deg);
+  }
+  30% {
+    transform: rotate(-5deg);
+  }
+  45% {
+    transform: rotate(4deg);
+  }
+  60% {
+    transform: rotate(-4deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+  85% {
+    transform: rotate(-2deg);
+  }
+  92% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}

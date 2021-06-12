@@ -1,0 +1,103 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value gunmetalLight, gunmetalVeryLight from colors;
+
+._content {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 122px);
+  padding: 24px;
+  overflow: scroll;
+}
+
+._title {
+  margin-bottom: 18px;
+}
+
+._description {
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+._subtitle {
+  margin-bottom: 16px;
+}
+
+._categories_list {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  list-style-type: none;
+  list-style-position: unset;
+}
+
+._categories_list_item {
+  margin-bottom: 8px;
+  width: 220px;
+}
+
+._categories_skeleton {
+  width: 220px;
+  font-size: 10px;
+}
+
+._fields_list_item {
+  padding: 10px;
+  border: 1px solid gunmetalVeryLight;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 37px;
+}
+
+._fields_list_empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+._fields_list_empty_icon {
+  display: flex;
+  align-self: center;
+  color: gunmetalVeryLight;
+  margin-bottom: 18px;
+}
+
+._fields_list_empty_text {
+  display: flex;
+  align-self: center;
+}
+
+._fields_list_close_button {
+  align-self: center;
+}
+
+._fields_list_text {
+  width: 100%;
+  align-self: center;
+  margin-left: 6px;
+}
+
+._fields_list_order_buttons {
+  align-self: flex-end;
+  width: 16px;
+  min-height: 37px;
+}
+
+._footer {
+  box-shadow: 0 -2px 4px gunmetalVeryLight;
+  display: flex;
+  height: 48px;
+  padding: 16px;
+}
+._button_wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+._button_wrapper > button:first-child {
+  flex: 1 1 auto;
+  margin-right: 15px;
+}

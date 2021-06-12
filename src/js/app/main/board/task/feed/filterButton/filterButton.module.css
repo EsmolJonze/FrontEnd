@@ -1,0 +1,55 @@
+@value colors: "../../../../../../../assets/stylesheets/colors.css";
+@value peanut, bloobirdsLight, bloobirdsNatural, bloobirdsVeryLightOcapity, bloobirdsVerySoft, gunmetalNatural, tangerine, tomate, banana, melon, seagreen from colors;
+@value verySoftBanana, verySoftMelon, verySoftSeagreen, verySoftTangerine, verySoftTomato from colors;
+
+._container {
+  position: relative;
+  height: 64px;
+  width: 64px;
+  background-color: bloobirdsVerySoft;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+._container:hover {
+  cursor: pointer;
+}
+
+._text {
+  margin: 0;
+  height: 19px;
+  font-size: 12px;
+  color: var(--peanut);
+}
+
+._icon {
+  transition: fill 0.3s ease, color 0.3s ease;
+  width: 24px;
+  height: 0.8em;
+  padding: 10px 0 14px 0;
+}
+
+._counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: bloobirdsVeryLightOcapity;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+._counter span {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 1px;
+  color: gunmetalNatural;
+}

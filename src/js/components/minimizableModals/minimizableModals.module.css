@@ -1,0 +1,32 @@
+._container {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 96px);
+  left: 96px;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+._minimizedModal__container {
+  height: 40px;
+  border-radius: 8px 8px 0 0;
+  padding: 0 8px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+._minimizedModal__container:last-child {
+  margin-right: 12px;
+}
+
+._minimizedModal__container button:first-of-type {
+  margin-right: 4px;
+  margin-left: 2px;
+}
+
+._minimizedModal__container p {
+  margin-right: 4px;
+}

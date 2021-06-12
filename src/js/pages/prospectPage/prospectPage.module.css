@@ -1,0 +1,57 @@
+._page_content > div > div:nth-child(1) {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
+._metrics_title {
+  margin-bottom: 26px;
+  padding-top: 24px;
+  display: flex;
+}
+
+._metrics_title > div > svg {
+  margin-left: 5px;
+}
+
+._content {
+  display: flex;
+  height: auto;
+  flex-direction: row;
+}
+._calendar {
+  display: flex;
+  flex-direction: column;
+  min-width: 45%;
+  padding-right: 30px;
+}
+
+._calendar_title {
+  margin-bottom: 26px;
+  padding-top: 24px;
+  display: flex;
+}
+
+._calendar_title > div > svg {
+  margin-left: 5px;
+}
+
+._metrics {
+  width: 100%;
+}
+
+._notification {
+  display: flex;
+  align-self: center;
+}
+
+@media only screen and (max-width: 900px) {
+  ._content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  ._page_content > div > div:nth-child(1) {
+    margin: 0 36px;
+  }
+}

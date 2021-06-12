@@ -1,0 +1,8 @@
+._container {
+  box-sizing: border-box;
+  padding: 52px 40px;
+}
+._tab_group {
+  box-sizing: border-box;
+  padding-top: 20px;
+}

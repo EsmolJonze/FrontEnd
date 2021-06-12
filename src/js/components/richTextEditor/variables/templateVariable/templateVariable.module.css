@@ -1,0 +1,21 @@
+._container {
+  background: #deecf7;
+  border-radius: 4px;
+  border: 1px solid #43a3fd;
+  box-sizing: border-box;
+  color: #1991ff;
+  padding: 0 8px;
+  display: inline;
+  height: 19px;
+  vertical-align: baseline;
+  font-size: 13px;
+  user-select: none;
+}
+
+._container__selected {
+  box-shadow: 0 0 0 2px #b4d5ff;
+}
+
+._text__placeholder {
+  vertical-align: baseline;
+}

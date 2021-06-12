@@ -1,0 +1,70 @@
+._container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 520px;
+}
+
+._content {
+  width: 400px;
+}
+
+._sectionVertical {
+  margin: 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+._sectionVertical > span {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+._sectionHorizontal {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+._sectionHorizontal > * {
+  margin-top: 20px;
+  margin-bottom: 48px;
+  width: 190px;
+}
+
+._sectionHorizontal > *:first-child {
+  margin-right: 0;
+}
+
+._sectionHorizontal > *:last-child {
+  margin-right: 0;
+  width: 184px;
+}
+
+._buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+._buttonsContainer > *:not(:first-of-type) {
+  margin: 8px;
+}
+
+._dropDownDiv {
+  flex-direction: column;
+}
+
+._dropDownDiv :first-child {
+  margin-bottom: 10px;
+}
+
+._iconMargin {
+  box-sizing: border-box;
+  padding-top: 2px;
+}
+
+._textAndIcon {
+  display: flex;
+}

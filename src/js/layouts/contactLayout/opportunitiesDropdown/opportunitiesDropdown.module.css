@@ -1,0 +1,38 @@
+._dropdown__container {
+  width: 616px;
+  display: flex;
+  flex-direction: column;
+  margin: -8px 0 -4px;
+}
+
+._header__container {
+  height: 30px;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  width: 100%;
+  background-color: var(--lightestBloobirds);
+  border-radius: 3px 3px 0 0;
+}
+
+._card__container {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  box-sizing: border-box;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+._card__container:hover {
+  background-color: var(--lighterGray);
+}
+
+._card__column {
+  width: 30%;
+  max-width: 162px;
+  flex-shrink: 0;
+}
+
+._card__status {
+  flex-grow: 1;
+}

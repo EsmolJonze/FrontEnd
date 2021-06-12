@@ -1,0 +1,11 @@
+._tab__container {
+  margin: 40px -25px 0 -25px;
+}
+
+._tab__container > div > div:first-of-type {
+  margin: 0 25px;
+}
+
+.item {
+  width: 548px;
+}

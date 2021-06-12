@@ -1,0 +1,116 @@
+._container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+._content__box {
+  width: 680px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+._section__box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 42px;
+  width: 680px;
+}
+
+._form__box {
+  width: 100%;
+}
+
+._form__box > div {
+  margin: 20px 0 20px;
+}
+
+._form__label {
+  display: flex;
+}
+
+._email_input__container {
+  margin-bottom: 40px;
+}
+
+._actions__container {
+  width: calc(100% - 24px);
+  border-top: 1px solid var(--lightestBloobirds);
+  height: 40px;
+  display: flex;
+  padding: 0 12px;
+}
+
+._editor__container {
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #94a5b4;
+  box-sizing: border-box;
+  width: 680px;
+  height: 200px;
+  margin-bottom: 14px;
+}
+
+._buttons__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-top: 20px;
+}
+
+._email_buttons__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+._email_buttons__container > div {
+  margin-left: 8px;
+}
+._email_buttons__container > span {
+  margin-right: auto;
+}
+
+._signature__container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 12px;
+}
+
+._signature__container > p {
+  flex-grow: 1;
+}
+
+._switchButtons__container :first-child {
+  margin-right: 8px;
+}
+
+._htmlPreview__container {
+  margin-top: 8px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #94a5b4;
+  padding: 8px;
+  word-break: break-word;
+}
+
+._htmlSignature__container {
+  max-width: 680px;
+}
+
+._htmlSignature__container > * {
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+._connections_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

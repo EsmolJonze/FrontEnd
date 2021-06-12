@@ -1,0 +1,44 @@
+._container {
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 340px;
+  margin-bottom: 12px;
+}
+
+._title__container {
+  margin-bottom: 16px;
+}
+
+._content__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+._tag__container {
+  width: 300px;
+  padding: 16px 0;
+  background: var(--lightestBloobirds);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._tag__content > span {
+  margin-top: -4px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+._status__container {
+  margin-top: -13px;
+}
+
+._creationDate__container {
+  margin-top: 10px;
+}

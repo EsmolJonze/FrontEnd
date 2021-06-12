@@ -1,0 +1,20 @@
+._content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
+._title {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+._subtitle {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+._button_container {
+  margin: auto;
+}

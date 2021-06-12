@@ -1,0 +1,42 @@
+._answerRow__container {
+  margin-top: 8px;
+  display: flex;
+  align-content: center;
+}
+
+._answerRow__container > button:last-child {
+  visibility: hidden;
+}
+
+._answerRow__container:hover > button:last-child {
+  visibility: visible;
+}
+
+._answerRow__container > * {
+  margin-right: 16px;
+}
+
+._addAnswer__button {
+  margin-top: 18px;
+}
+
+._answers__container {
+  margin-top: 24px;
+  padding-bottom: 32px;
+}
+
+._separator {
+  margin: 20px 0;
+  border-top: 1px dashed var(--verySoftPeanut);
+}
+
+._form__row {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  align-content: center;
+}
+
+._form__row > * {
+  margin-right: 16px;
+}

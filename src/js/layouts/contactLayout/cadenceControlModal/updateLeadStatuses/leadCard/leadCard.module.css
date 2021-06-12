@@ -1,0 +1,54 @@
+._container {
+  background: var(--white);
+  box-sizing: border-box;
+  border: 1px solid var(--veryLightBloobirds);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  height: 56px;
+  width: 100%;
+  margin-top: -1px;
+}
+
+._column_1 {
+  display: flex;
+  align-items: center;
+  width: 270px;
+}
+
+._column_2 {
+  width: 645px;
+  display: flex;
+}
+
+._name__container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 198px;
+  margin-left: 8px;
+}
+
+._lead_status {
+  margin-right: 14px;
+}
+
+._opportunity_list {
+  margin-right: 14px;
+  display: flex;
+  align-self: center;
+}
+
+._opportunity_list > div > div {
+  margin: 0;
+}
+
+._reasons_list {
+  display: flex;
+  align-self: center;
+}
+
+._reasons_list > div > div {
+  margin: 0;
+}

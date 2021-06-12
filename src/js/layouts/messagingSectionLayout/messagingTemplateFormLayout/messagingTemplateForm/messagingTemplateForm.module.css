@@ -1,0 +1,32 @@
+._content {
+  display: flex;
+  height: 90vh;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+._editor {
+  padding: 48px 64px;
+  width: 100%;
+  background-color: var(--lighterGray);
+}
+
+._title {
+  margin-bottom: 24px;
+}
+
+._back__button {
+  margin-bottom: 36px;
+}
+
+._form__row {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  display: flex;
+  align-content: center;
+}
+
+._update_subtitle {
+  margin-bottom: 8px;
+  margin-top: 4px;
+}

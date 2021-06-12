@@ -1,0 +1,38 @@
+@value colors: "../../../../assets/stylesheets/colors.css";
+@value bloobirdsSuperVeryLight, gunmetalNatural, gunmetalLight from colors;
+
+._container {
+  background-color: bloobirdsSuperVeryLight;
+  width: 100%;
+  margin: 0 -38px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+._description__text {
+  color: gunmetalNatural;
+  margin: auto;
+}
+
+._description__text_light {
+  color: gunmetalLight;
+  margin: auto;
+}
+
+._empty_data__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+._empty_data__icon {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 34px;
+}
+
+._empty_data__icon > g,
+._empty_data__icon > path {
+  fill: gunmetalLight;
+}

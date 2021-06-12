@@ -1,0 +1,59 @@
+._arrow {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: var(--white);
+  clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+  border-radius: 0 5px;
+  box-shadow: -6px 20px 20px 0 rgba(0, 0, 0, 0.15);
+  transform: rotate(45deg);
+  left: -8px;
+}
+
+._popup {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+  font-family: var(--fontFamily);
+  transform: translateY(calc(-50% + 10px));
+  z-index: 9999;
+  animation: popup 150ms ease-in-out;
+}
+
+._views_initial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._views_initial > * {
+  margin-left: 4px;
+}
+
+._content {
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-bottom: 0;
+  height: 36px;
+  width: 36px;
+  max-height: calc(85vh);
+  border-radius: 4px;
+  background-color: var(--white);
+  margin-bottom: 0;
+  transition: width 250ms, height 250ms, margin-bottom 200ms, margin-top 200ms;
+}
+
+@keyframes popup {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

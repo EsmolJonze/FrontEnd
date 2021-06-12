@@ -1,0 +1,27 @@
+._container {
+  align-items: center;
+  background: var(--lightestBloobirds);
+  border-radius: 4px;
+  border: 1px solid var(--lightestBloobirds);
+  box-sizing: border-box;
+  display: flex;
+  height: 36px;
+  padding: 0 10px;
+  width: 196px;
+}
+
+._container:not(:first-of-type) {
+  margin-left: 12px;
+}
+
+._text__container {
+  flex-grow: 1;
+  margin-left: 5px;
+  max-width: 125px;
+}
+
+._text__container > p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

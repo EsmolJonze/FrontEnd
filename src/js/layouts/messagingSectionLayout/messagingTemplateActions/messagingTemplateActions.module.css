@@ -1,0 +1,22 @@
+._container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+._rightActions__container {
+  display: flex;
+  align-items: center;
+}
+
+._searchBar__container {
+  max-width: 190px;
+  margin-right: 12px;
+  margin-bottom: 3px;
+}
+
+._switchAction__container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}

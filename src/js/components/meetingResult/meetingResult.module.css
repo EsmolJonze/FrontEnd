@@ -1,0 +1,35 @@
+._section__wrapper {
+  margin-bottom: 24px;
+}
+
+._section_title__wrapper {
+  margin-bottom: 16px;
+}
+
+._labels__wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+._label__content {
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  margin-bottom: 12px;
+}
+
+._label__content > div {
+  margin-bottom: 12px;
+}
+
+._buttons__wrapper {
+  display: flex;
+  width: 100%;
+}
+
+._buttons__wrapper > button:nth-child(2) {
+  margin-left: auto;
+  margin-right: 16px;
+}

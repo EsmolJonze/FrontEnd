@@ -1,0 +1,26 @@
+._actionContainer {
+  margin-bottom: 40px;
+}
+
+._actionContainer > p {
+  margin-bottom: 16px;
+}
+
+._actionContainer > div > div:not(:first-child) {
+  margin-left: 8px;
+}
+
+._leadContainer > p {
+  margin-bottom: 8px;
+}
+
+._buttons__wrapper {
+  margin-top: 36px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+._forward__buttons > button {
+  margin-left: 18px;
+}

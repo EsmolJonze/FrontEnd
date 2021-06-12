@@ -1,0 +1,16 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value gunmetalVeryLight, whiteNatural from colors;
+
+._container {
+  background-color: whiteNatural;
+  box-shadow: 0 20px 40px 0 rgba(148, 165, 180, 0.4);
+}
+
+._week {
+  display: flex;
+  box-sizing: border-box;
+}
+
+._week:not(:last-child) {
+  border-bottom: 1px solid gunmetalVeryLight;
+}

@@ -1,0 +1,39 @@
+._card {
+  border: solid 1px var(--veryLightBloobirds);
+  background-color: var(--white);
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  max-width: 1280px;
+  padding: 32px;
+}
+
+._card_header {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+._card_header > * {
+  flex-shrink: 0;
+}
+
+._card_header > *:last-child {
+  margin-left: auto;
+}
+
+._card_header_text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+._list {
+  margin-top: 32px;
+}
+
+._date_title {
+  margin-bottom: 8px;
+  width: 100%;
+}

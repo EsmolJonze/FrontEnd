@@ -1,0 +1,14 @@
+._accounts_alert_link {
+  color: #1991ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+._pause_icon {
+  margin-right: 20px;
+}
+
+._pause_text_container {
+  display: flex;
+  align-items: center;
+}

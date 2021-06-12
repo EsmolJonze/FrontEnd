@@ -1,0 +1,48 @@
+._labels__wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 250px;
+  align-content: space-around;
+}
+
+._label__content {
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  margin-bottom: 12px;
+}
+
+._section__wrapper {
+  margin-bottom: 24px;
+}
+
+._section_title__wrapper {
+  margin-bottom: 16px;
+}
+
+._chips__wrapper {
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+._chips__wrapper > div > div {
+  margin-right: 15px;
+}
+
+._buttons__wrapper {
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+}
+
+._pitch__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+._pitch_select__wrapper {
+  margin-left: 15px;
+  flex: 1;
+}

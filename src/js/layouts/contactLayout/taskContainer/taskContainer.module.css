@@ -1,0 +1,61 @@
+._icon {
+  margin-right: 8px;
+}
+
+._title {
+  display: flex;
+  align-items: center;
+  background: var(--veryLightBloobirds);
+  box-shadow: 0 2px 4px rgba(25, 145, 255, 0.09);
+  border-radius: 4px 4px 0 0;
+  height: 36px;
+  padding: 0 12px;
+}
+
+._title__no_tasks {
+  background: var(--lighterGray);
+}
+
+._info__container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+._info__message__emoji {
+  margin-right: 4px;
+  line-height: 24px;
+}
+
+._info_message__container {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+._change_task_button {
+  display: flex;
+  align-items: center;
+  height: 36px;
+}
+
+._change_task_button > p {
+  margin: 0 4px;
+}
+
+._taskSkeleton__container {
+  background: var(--white);
+  border: 1px solid var(--bloobirdsVeryLight);
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(25, 145, 255, 0.084324);
+  border-radius: 4px;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 18px 16px;
+}
+
+._taskSkeleton__container > span:not(:first-child) {
+  margin-left: 12px;
+}

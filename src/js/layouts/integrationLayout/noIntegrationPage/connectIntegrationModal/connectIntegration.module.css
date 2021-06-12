@@ -1,0 +1,12 @@
+._text_area {
+  padding: 16px 150px 40px 150px;
+}
+._text_area > *:first-child {
+  padding-top: 0;
+}
+._text_area > * {
+  padding-top: 28px;
+}
+._callout > div {
+  width: 100%;
+}

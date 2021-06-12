@@ -1,0 +1,19 @@
+._select_wrapper {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 56px;
+}
+
+._select_wrapper > svg {
+  margin-right: 20px;
+}
+
+._select_text {
+  width: 96px;
+}
+
+._hidden {
+  display: none;
+}

@@ -1,0 +1,41 @@
+@value colors: "../../../../assets/stylesheets/colors.css";
+@value whiteNatural, bloobirdsVeryLight, gunmetalVeryLight from colors;
+
+._container {
+  composes: slideInRight from '../../../../assets/stylesheets/animations.css';
+  background-color: whiteNatural;
+  border-color: bloobirdsVeryLight;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 2px 4px 0 gunmetalVeryLight;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  outline: none;
+  position: fixed;
+  right: 0;
+  width: 504px;
+  top: 0;
+  z-index: 1;
+}
+
+._overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: rgba(54, 93, 128, 0.5);
+  z-index: 0;
+}
+
+._close_button {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+._list_item_input > div {
+  width: 100%;
+}

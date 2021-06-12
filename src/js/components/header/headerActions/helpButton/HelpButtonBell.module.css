@@ -1,0 +1,25 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value bloobirdsNatural, whiteNatural from colors;
+
+._container:hover {
+  color: whiteNatural;
+}
+
+._wrapper_no_updates {
+  padding: 60px;
+}
+
+._container_no_updates {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+._helpButton__container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

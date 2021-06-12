@@ -1,0 +1,43 @@
+._error_page__container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 160px);
+  justify-content: center;
+}
+
+._error_page__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+._error_page__icon {
+  height: 86px;
+  width: 86px;
+  margin-bottom: 20px;
+}
+
+._error_page__icon > g,
+._error_page__icon > path {
+  fill: var(--verySoftPeanut);
+}
+
+._error_page__message > span {
+  margin-top: 16px;
+  display: block;
+  max-width: 400px;
+}
+
+._error_page__actions {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 22px;
+}
+
+._error_page__actions > button {
+  width: fit-content;
+  margin: 4px auto;
+}

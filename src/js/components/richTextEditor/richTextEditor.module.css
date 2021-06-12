@@ -1,0 +1,202 @@
+._container {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 49px);
+  overflow-y: auto;
+}
+
+.singleLine ._container {
+  height: 38px;
+  overflow-y: hidden;
+}
+
+._container > div {
+  height: calc(100% - 16px);
+  overflow-y: auto;
+  padding: 0 64px 0 12px;
+}
+
+.singleLine ._container > div {
+  overflow-y: hidden;
+}
+
+._container ::selection {
+  background: var(--lightBloobirds);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container p {
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.empty.container p {
+  margin-bottom: 7px;
+  margin-top: 2px;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  padding-top: 3px;
+  width: 100%;
+}
+
+.content svg {
+  padding-left: 12px;
+}
+
+.legend {
+  margin-left: 4px;
+  width: 0.01px;
+  padding: 0;
+  white-space: nowrap;
+
+  color: var(--softPeanut);
+
+  font-family: var(--fontFamily);
+  font-size: 13px;
+  line-height: 16px;
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+.fieldset {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: fit-content;
+  min-height: 48px;
+  margin: 0;
+  padding: 0;
+
+  background-color: var(--white);
+  border: 1px solid var(--softPeanut);
+  border-radius: 4px;
+
+  overflow-x: hidden;
+}
+
+.helper {
+  padding-top: 4px;
+  padding-left: 12px;
+  color: var(--softPeanut);
+
+  font-family: var(--fontFamily);
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.placeholder {
+  position: absolute;
+  color: var(--softPeanut);
+
+  font-family: var(--fontFamily);
+  font-size: 16px;
+  line-height: 24px;
+  top: 14px;
+
+  opacity: 1;
+  pointer-events: none;
+}
+
+/* Filled & Focused */
+.filled .legend {
+  width: auto;
+  visibility: visible;
+  padding: 0 4px;
+  opacity: 1;
+  transition: all 250ms;
+}
+
+.filled .legend.empty {
+  width: 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+.focused .legend {
+  color: var(--bloobirds);
+}
+
+.focused .fieldset {
+  border-color: var(--bloobirds);
+  background-color: transparent;
+  transition: all 200ms;
+}
+
+.focused .helper {
+  color: var(--bloobirds);
+}
+
+.filled.focused .placeholder {
+  opacity: 0;
+}
+
+.filled .placeholder {
+  display: none;
+}
+
+.transparent .fieldset {
+  background-color: transparent;
+}
+
+/* Error & Warning */
+.error .fieldset {
+  border-color: var(--tomato);
+}
+
+.error .legend,
+.error .helper {
+  color: var(--tomato);
+}
+
+.warning .fieldset {
+  border-color: var(--banana);
+}
+
+.warning .legend,
+.warning .helper {
+  color: var(--banana);
+}
+
+/* disabled */
+.disabled .fieldset {
+  pointer-events: none;
+  background-color: var(--lighterGray);
+  border-color: var(--verySoftPeanut);
+  color: var(--softPeanut);
+}
+
+.dark .fieldset {
+  background-color: var(--extraDarkBackground);
+}
+
+.dark .fieldset input,
+.dark .fieldset textarea {
+  color: var(--verySoftPeanut);
+}
+
+.dark.focused .fieldset {
+  border-color: var(--lightPeanut);
+  transition: all 200ms;
+}
+
+.dark.focused .legend,
+.dark.focused .helper {
+  color: var(--lightPeanut);
+  transition: all 200ms;
+}

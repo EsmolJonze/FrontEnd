@@ -1,0 +1,54 @@
+._container {
+  background-color: var(--lighterGray);
+  border-bottom: 1px solid var(--lightBloobirds);
+}
+
+._topHalf__container {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  border-bottom: 1px solid var(--lightBloobirds);
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+
+._topHalf__gradient {
+  background: linear-gradient(270deg, #43ccf2 0%, #1991ff 100%);
+}
+
+._topHalf__completed_gradient {
+  background: linear-gradient(270deg, #42da9c 0%, #1991ff 100%);
+}
+
+._bobjectName__container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+._bobjectName__container > p {
+  margin-left: 15px;
+}
+
+._bottomHalf__container > div,
+._bottomHalf__container > div > div {
+  font-size: 14px;
+  color: var(--softPeanut);
+}
+
+._bottomHalf__container > div > div > div {
+  margin-left: 0 !important;
+}
+
+._bottomHalf__container > div > div > svg {
+  margin-left: 4px;
+}
+
+._bottomHalf__container > div:not(:first-child) {
+  margin-left: 28px;
+}
+
+._bottomHalf__container {
+  height: 40px;
+  padding: 0 72px;
+}

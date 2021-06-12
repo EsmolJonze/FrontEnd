@@ -1,0 +1,28 @@
+._container:hover {
+  cursor: pointer;
+  padding-right: 0;
+}
+
+._container {
+  display: flex;
+  align-items: center;
+  padding-right: 16px;
+  height: 14px;
+}
+
+._name__text {
+  color: var(--bloobirds);
+  font-size: 14px;
+  line-height: 14px;
+  margin-right: 4px;
+}
+
+._nameLead {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+._nameCompany {
+  font-size: 25px;
+  font-weight: 500;
+}

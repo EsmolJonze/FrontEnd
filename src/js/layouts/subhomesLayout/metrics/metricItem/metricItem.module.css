@@ -1,0 +1,20 @@
+._content {
+  display: flex;
+  flex-basis: 50%;
+  flex-direction: column;
+  color: var(--bloobirds);
+}
+
+._item {
+  font-size: 72px;
+}
+
+._content:nth-child(1),
+._content:nth-child(2) {
+  margin-bottom: 15px;
+}
+
+._content:nth-child(3),
+._content:nth-child(4) {
+  font-size: 72px;
+}

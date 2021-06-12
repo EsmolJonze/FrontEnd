@@ -1,0 +1,98 @@
+._section__wrapper {
+  margin-bottom: 24px;
+}
+
+._content__wrapper {
+  padding-top: 5px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+._lead_info_container {
+  width: 180px;
+  margin: 0 auto;
+}
+
+._name__wrapper {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+._name__wrapper > p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 153px;
+}
+
+._name__wrapper > svg {
+  margin-right: 4px;
+}
+
+._currentStatus__wrapper {
+  margin-bottom: 24px;
+}
+
+._currentStatus__wrapper > div {
+  padding: 4px 16px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+._change_lead_status__wrapper {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+._change_company_status__wrapper {
+  width: 180px;
+}
+
+._list_status > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+._list_status > div > div,
+._currentStatus__wrapper > div {
+  width: 148px;
+}
+
+._radios_list_status {
+  width: 420px;
+}
+
+._radios_list_status > div > div {
+  letter-spacing: 0;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+}
+
+._title__wrapper {
+  margin-bottom: 15px;
+}
+
+._title__wrapper__centered {
+  display: flex;
+  justify-content: center;
+}
+
+._reason__wrapper {
+  margin-right: 15px;
+  width: 50%;
+}
+
+._buttons__wrapper {
+  display: flex;
+  width: 100%;
+}
+
+._buttons__wrapper > button:nth-child(2) {
+  margin-left: auto;
+  margin-right: 16px;
+}

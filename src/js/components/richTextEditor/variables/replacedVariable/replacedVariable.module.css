@@ -1,0 +1,21 @@
+._container {
+  vertical-align: baseline;
+  display: inline;
+}
+
+._container__notFound {
+  border-radius: 4px;
+  border: 1px solid var(--tomato);
+  color: var(--tomato);
+  box-sizing: border-box;
+  padding: 0 8px;
+  display: inline;
+  height: 19px;
+  vertical-align: baseline;
+  font-size: 13px;
+  user-select: none;
+}
+
+._container__notFound__selected {
+  box-shadow: 0 0 0 2px var(--verySoftTomato);
+}

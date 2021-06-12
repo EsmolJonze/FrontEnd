@@ -1,0 +1,25 @@
+._container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+._tag__container {
+  margin-right: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: ellipsis;
+}
+
+._tag__container > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  margin-bottom: 12px;
+}
+
+._more_options__container {
+  cursor: pointer;
+}

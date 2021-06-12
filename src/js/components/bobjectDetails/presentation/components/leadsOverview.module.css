@@ -1,0 +1,19 @@
+.LeadOverview_root {
+  grid-column: 1/4;
+  grid-row: 4;
+  min-height: 30px;
+  margin: 0 10px 6px 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.LeadOverview_root > * {
+  margin: 9px 13px 0 13px;
+}
+
+.LeadOverview_root > div > div:first-of-type {
+  border: 1px solid white;
+  box-sizing: border-box;
+}

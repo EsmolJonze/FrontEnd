@@ -1,0 +1,26 @@
+._container {
+  display: flex;
+  box-sizing: border-box;
+  height: 45px;
+  width: 100%;
+  padding-left: 36px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  position: sticky;
+  top: -45px;
+  z-index: 1;
+  background-color: var(--veryLightBloobirds);
+  justify-content: flex-start;
+}
+
+._separator {
+  width: 0;
+  height: 24px;
+  margin-left: 16px;
+  margin-right: 8px;
+  border-left: 1px solid #d4e0f1;
+}
+
+._filter__container {
+  margin: 0 8px 0 8px;
+}

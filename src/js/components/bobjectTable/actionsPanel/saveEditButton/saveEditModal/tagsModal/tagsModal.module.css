@@ -1,0 +1,69 @@
+@value colors: "../../../../../../../assets/stylesheets/colors.css";
+@value whiteNatural, grayLightest from colors;
+@value cssVariables: '../../../../../../style/variables.js';
+
+._container {
+  width: 424px;
+  background: whiteNatural;
+  margin: 295px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 0 2px 6px rgba(70, 79, 87, 0.403136);
+  border-radius: 4px;
+  max-height: 500px;
+  min-height: 275px;
+  overflow: auto;
+}
+
+._container:focus {
+  outline: none;
+}
+
+._header {
+  background: grayLightest;
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+  height: 56px;
+}
+
+._tag {
+  cursor: pointer;
+  margin-top: 18px;
+  width: 100px;
+}
+
+._icon {
+  width: 45px;
+}
+
+._body {
+  padding: 0 24px 24px 24px;
+  max-height: 300px;
+}
+
+._tags_selected_container {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+._search_tag {
+  width: 90%;
+  background: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+  border: none;
+  font-size: 16px;
+  white-space: normal;
+  text-align: justify;
+  padding: 20px 0 0 20px;
+  font-family: 'ProximaNovaSoft', sans-serif;
+}
+
+._tags_suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}

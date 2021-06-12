@@ -1,0 +1,19 @@
+._more_options__container {
+  z-index: 999;
+  display: inline-block;
+}
+
+._tag__container {
+  margin-right: 8px;
+}
+
+._tag_expanded__container {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+._expanded_tags_container {
+  display: flex;
+  max-width: 400px;
+  flex-wrap: wrap;
+}

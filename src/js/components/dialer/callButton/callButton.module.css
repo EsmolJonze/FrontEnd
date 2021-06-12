@@ -1,0 +1,65 @@
+._container {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+._button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 54px;
+  width: 54px;
+  border: 3px solid white;
+  border-radius: 100%;
+}
+
+._button:not(:first-of-type) {
+  margin-left: 16px;
+}
+
+._green__button {
+  composes: _button;
+  background-color: var(--melon);
+}
+
+._red__button {
+  composes: _button;
+  background-color: var(--tomato);
+}
+
+._call__animation {
+  animation: play 2s ease infinite;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+._call__disabled {
+  background-color: transparent;
+  border-color: var(--softPeanut);
+  cursor: default;
+}
+
+._button__disabled {
+  cursor: default;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+@keyframes play {
+  0% {
+    transform: scale(1);
+  }
+  15% {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
+  }
+  25% {
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.4), 0 0 0 8px rgba(255, 255, 255, 0.2);
+  }
+  25% {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.4), 0 0 0 12px rgba(255, 255, 255, 0.2);
+  }
+}

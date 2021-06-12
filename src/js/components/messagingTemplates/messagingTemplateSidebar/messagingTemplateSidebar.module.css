@@ -1,0 +1,19 @@
+.sidebar {
+  box-sizing: border-box;
+  background-color: var(--lightestBloobirds);
+  min-width: 300px;
+  max-width: 386px;
+  padding: 40px 24px;
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
+.section {
+  margin-bottom: 56px;
+}
+
+.description {
+  margin-top: 12px;
+}

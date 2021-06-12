@@ -1,0 +1,54 @@
+@value colors: "../../../../assets/stylesheets/colors.css";
+@value natural, bloobirdsNatural from colors;
+
+.stepper__root {
+  width: 100%;
+  padding-top: 12px;
+}
+
+.stepConnector {
+}
+
+.stepConnector .alternativeLabel {
+  top: 10px;
+  left: calc(-50% + 16px);
+  right: calc(50% + 16px);
+}
+
+.stepConnector .active .line {
+  border-color: natural;
+}
+
+.stepConnector .completed .line {
+  border-color: natural;
+}
+
+.stepConnector .line {
+  border-color: #eaeaf0;
+  border-top-width: 3px;
+  border-radius: 1px;
+}
+
+.stepIcons__root {
+  color: #eaeaf0;
+  display: flex;
+  height: 22px;
+  align-items: center;
+}
+
+.stepIcons__active {
+  color: natural;
+}
+
+.stepIcons__circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: bloobirdsNatural;
+}
+
+.stepIcons__completed {
+  color: natural;
+  z-index: 1;
+  font-size: 18px;
+}

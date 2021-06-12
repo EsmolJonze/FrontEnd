@@ -1,0 +1,41 @@
+._content__container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+._content__container > div {
+  margin: 12px 0 12px;
+}
+
+._header__container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+._icon__container {
+  padding: 16px;
+  border-radius: 45px;
+  background-color: var(--lightestBloobirds);
+  border: 2px solid var(--veryLightBloobirds);
+  z-index: 1;
+}
+
+._divider {
+  border-bottom: 1px solid var(--veryLightBloobirds);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+._dates__container {
+  display: flex;
+  flex-direction: row;
+}
+
+._dates__container > div {
+  margin-right: 24px;
+}

@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.root_withErrors {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  flex: 1;
+}

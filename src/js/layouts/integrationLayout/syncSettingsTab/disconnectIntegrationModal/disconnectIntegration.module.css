@@ -1,0 +1,18 @@
+._check_box {
+  box-sizing: border-box;
+  padding: 20px 0 40px 0;
+}
+._call_out {
+  margin-bottom: 40px;
+}
+._call_out > div:first-child {
+  width: 100%;
+}
+._call_out > p {
+  display: flex;
+}
+._call_out_text {
+  font-weight: bold;
+  display: inline;
+  color: var(--peanut);
+}

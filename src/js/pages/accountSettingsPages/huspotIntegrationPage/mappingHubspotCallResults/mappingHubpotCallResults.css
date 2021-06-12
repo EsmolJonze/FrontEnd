@@ -1,0 +1,13 @@
+._cell_text {
+  height: 100%;
+}
+
+._cell_text > div {
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+
+._cell > div {
+  padding-top: 0;
+}

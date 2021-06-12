@@ -1,0 +1,11 @@
+._container {
+  background-color: var(--lighterGray);
+  padding: 27px 26px 40px;
+  min-height: 1000px;
+}
+
+._wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}

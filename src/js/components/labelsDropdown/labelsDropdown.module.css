@@ -1,0 +1,9 @@
+._dropdown_wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+._label_wrapper {
+  margin-right: 4px;
+}

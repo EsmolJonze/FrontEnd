@@ -1,0 +1,55 @@
+._container {
+  background: var(--white);
+  border: 1px solid var(--veryLightBloobirds);
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(25, 145, 255, 0.084324);
+  border-radius: 4px;
+  height: 60px;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  letter-spacing: 0.5px;
+  padding: 18px 16px;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+._completed {
+  background-color: var(--lightestBloobirds);
+}
+
+._complete_button {
+  margin-right: 8px;
+}
+
+._checkButton {
+  margin: 0 8px 0 0;
+}
+
+._content_left {
+  color: var(--peanut);
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+._content_left:last-child {
+  padding-right: 8px;
+}
+
+._content_right {
+  display: flex;
+  min-width: fit-content;
+  flex: 0 1;
+  justify-content: flex-end;
+  position: relative;
+}
+
+._context_menu {
+  margin-left: 8px;
+}

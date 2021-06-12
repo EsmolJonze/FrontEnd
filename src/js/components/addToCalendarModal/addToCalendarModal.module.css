@@ -1,0 +1,27 @@
+._main {
+  margin: 32px auto;
+  display: flex;
+  align-items: center;
+}
+
+._calendar {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin-right: 16px;
+  border: 1px solid var(--verySoftPeanut);
+}
+
+._calendar > header {
+  box-sizing: border-box;
+  background-color: var(--tomato);
+}
+
+._calendar > div {
+  padding: 4px 8px;
+}
+
+._text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

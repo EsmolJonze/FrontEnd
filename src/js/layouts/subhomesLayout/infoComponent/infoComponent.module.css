@@ -1,0 +1,28 @@
+._info_content {
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+._info_title {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+._tooltip {
+  margin-left: 4px;
+  display: flex;
+  align-items: center;
+}
+
+._startTasks__container {
+  flex-shrink: 0;
+}
+
+._buttonSpinner {
+  margin-right: 8px;
+  height: 14px;
+}

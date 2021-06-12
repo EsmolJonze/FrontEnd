@@ -1,0 +1,31 @@
+@value colors: "../../../../assets/stylesheets/colors.css";
+@value bloobirdsSuperVeryLight, gunmetalLight, whiteNatural from colors;
+
+._tableHead {
+  background-color: bloobirdsSuperVeryLight;
+  height: auto;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+._tableHeadField {
+  color: whiteNatural;
+  border-bottom: none;
+}
+
+._tableHeadFieldSort {
+  height: 16px;
+}
+
+._tableHeadFieldText {
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: gunmetalLight;
+}
+
+._tableHead > span {
+  margin: auto 0;
+}

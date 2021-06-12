@@ -1,0 +1,8 @@
+._container {
+  margin-top: 40px;
+}
+
+._container > div > div:first-child {
+  max-width: 1280px;
+  margin: auto;
+}

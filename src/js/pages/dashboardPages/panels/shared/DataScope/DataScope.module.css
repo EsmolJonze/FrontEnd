@@ -1,0 +1,34 @@
+.content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  bottom: 0;
+}
+
+.footer > * {
+  margin-right: 4px;
+}
+
+.button {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+
+  border: 1px solid var(--veryLightBloobirds);
+  background: white;
+  overflow: hidden;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.button:disabled {
+  cursor: default;
+  background: var(--lighterGray);
+}

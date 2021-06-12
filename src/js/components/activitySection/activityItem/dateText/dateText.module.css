@@ -1,0 +1,11 @@
+._wrapper {
+  margin-left: 32px;
+  margin-right: 16px;
+}
+
+._wrapper > p {
+  display: flex;
+  align-items: flex-start;
+  text-align: right;
+  white-space: nowrap;
+}

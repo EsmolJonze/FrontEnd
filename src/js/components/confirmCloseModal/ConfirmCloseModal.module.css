@@ -1,0 +1,7 @@
+._content {
+  margin-bottom: 32px;
+}
+
+._content > p:first-child {
+  margin-bottom: 8px;
+}

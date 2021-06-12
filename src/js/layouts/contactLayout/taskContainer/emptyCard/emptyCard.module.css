@@ -1,0 +1,8 @@
+._card {
+  background-color: var(--lightestBloobirds);
+  width: 100%;
+  padding: 18px 0;
+  border: 1px solid var(--veryLightBloobirds);
+  box-sizing: border-box;
+  height: 60px;
+}

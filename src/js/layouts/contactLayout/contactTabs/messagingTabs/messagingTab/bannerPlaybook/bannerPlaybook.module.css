@@ -1,0 +1,33 @@
+._banner_wrapper {
+  background-color: var(--veryLightBloobirds);
+  width: calc(100% - 80px);
+  padding: 21px 40px;
+}
+
+._title_wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+._title_wrapper > svg,
+._and_wrapper {
+  margin-left: 4px;
+}
+
+._content_wrapper {
+  margin-bottom: 8px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+._criteria_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+._criteria_wrapper > div {
+  margin-left: 4px;
+}

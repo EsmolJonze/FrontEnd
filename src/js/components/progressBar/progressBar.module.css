@@ -1,0 +1,6 @@
+._containerStyles {
+  height: 20px;
+  width: 100%;
+  background-color: var(--verySoftBloobirds);
+  border-radius: 100px;
+}

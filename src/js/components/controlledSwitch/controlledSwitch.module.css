@@ -1,0 +1,8 @@
+._switchText__container {
+  display: flex;
+  align-items: center;
+}
+
+._switchText__text {
+  margin-left: 12px;
+}

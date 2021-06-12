@@ -1,0 +1,95 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value bloobirdsNatural, whiteNatural, verySoftTomato, verySoftBanana, tomato, melon, banana, gunmetalNatural, gunmetalLight, verySoftMelon from colors;
+
+.buttonRoot {
+  color: bloobirdsNatural;
+  background-color: whiteNatural;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+}
+
+.buttonOutlined {
+  border: 1px solid bloobirdsNatural;
+}
+
+.arrowIcon {
+  position: absolute;
+  left: 16px;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: normal;
+  height: 23px;
+}
+
+.log {
+  width: 500px;
+  border-radius: 4px;
+  padding: 16px 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logError {
+  padding: 16px 24px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  width: 500px;
+  background-color: verySoftTomato;
+  border: solid 1px tomato;
+  height: auto;
+}
+
+.logWarning {
+  padding: 16px 24px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  width: 500px;
+  background-color: verySoftBanana;
+  border: solid 1px banana;
+  height: auto;
+}
+
+.logSuccess {
+  padding: 16px 24px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  width: 500px;
+  background-color: verySoftMelon;
+  border: solid 1px melon;
+  height: auto;
+}
+
+.logText {
+  color: gunmetalNatural;
+  margin: 8px 0;
+  fontsize: 14px;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+  color: gunmetalNatural;
+}
+
+.subTitle {
+  font-size: 14px;
+  text-align: center;
+  color: gunmetalLight;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.uploadLink {
+  color: bloobirdsNatural;
+}
+
+.divScrollable {
+  height: 470px;
+  margin-left: 5%;
+  padding: 1%;
+  overflow: scroll;
+}

@@ -1,0 +1,85 @@
+syntax = "proto3";
+
+option java_package = "com.bloobirds.platform.service.bobject.api.protobuf";
+option java_outer_classname = "Message";
+
+message BobjectId {
+  string value = 1;
+  string type_name = 2;
+  string account_id = 3;
+  string object_id = 4;
+}
+
+message RawBobject {
+  BobjectId id = 1;
+  map<string, string> contents = 2;
+}
+
+message FormBobjectField {
+  string text = 1;
+  string value = 2;
+  string name = 3;
+  string label = 4;
+  string logic_role = 5;
+  string icon = 6;
+  int32 ordering = 7;
+  string value_logic_role = 8;
+  string value_text_color = 9;
+  string value_background_color = 10;
+  string value_outline_color = 11;
+  int32 value_score = 12;
+  string group_name = 13;
+  int32 group_ordering = 14;
+  string group_icon = 15;
+  string group_detail_display = 16;
+  string referenced_bobject_type = 17;
+  string date_format_type = 18;
+  string date_format_absolute = 19;
+  string type = 20;
+  bool required = 21;
+  bool inbound_field = 22;
+  bool type_field = 23;
+  int32 value_ordering = 24;
+  int32 lists_ordering = 25;
+  bool required_column_lists = 26;
+}
+
+message FormBobject {
+  BobjectId id = 1;
+  RawBobject raw = 2;
+  repeated FormBobjectField fields = 3;
+  map<string, FormBobject> referenced_bobjects = 4;
+}
+
+message SearchResponseFormBobject {
+  int32 page = 1;
+  int32 total_matching = 2;
+  repeated FormBobject contents = 3;
+  map<string, FormBobject> referenced_bobjects = 4;
+}
+
+
+enum Direction {
+    ASC = 0;
+    DESC = 1;
+}
+
+message SearchRequest {
+    message SearchRequestSorting {
+        string field = 1;
+        Direction direction = 2;
+    }
+    message SearchRequestFieldQuery {
+        string field = 1;
+        repeated string values = 2;
+        string search_mode = 3;
+    }
+  repeated SearchRequestFieldQuery query = 1;
+  repeated SearchRequestSorting sort = 2;
+  int32 page = 3;
+  int32 page_size = 4;
+  bool inject_references = 5;
+  bool form_fields = 6;
+  bool simple_fields = 7;
+
+}

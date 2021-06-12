@@ -1,0 +1,56 @@
+._container {
+  padding: 0 16px;
+  position: absolute;
+  z-index: 2;
+  top: -10000px;
+  left: -10000px;
+  margin-top: -6px;
+  opacity: 0;
+  background-color: var(--bloobirds);
+  border-radius: 4px;
+  transition: opacity 0.75s;
+  width: 316px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+._formatButton__container {
+  position: relative;
+  margin-right: 5px;
+}
+
+._activeDot {
+  position: absolute;
+  height: 4px;
+  width: 4px;
+  border-radius: 100%;
+  background-color: var(--white);
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+._group__container {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+._group__container:nth-last-child() {
+  margin-right: 0;
+}
+
+.arrow {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: inherit;
+  clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+  border-radius: 0 5px;
+  box-shadow: -6px 20px 20px 0 rgba(0, 0, 0, 0.15);
+  bottom: 2px;
+  left: 50%;
+  transform: rotate(-45deg) translateX(-50%);
+}

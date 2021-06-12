@@ -1,0 +1,45 @@
+._cadence_title__wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+._cadence_name__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+._cadence_name__wrapper > p {
+  margin-right: 8px;
+}
+
+._cadence_name__link {
+  margin-right: 8px;
+}
+
+._cadence_name__link > svg {
+  margin-left: 5px;
+}
+
+._cadence_name__link:hover {
+  cursor: pointer;
+}
+
+._cadence_name__link_disabled {
+  pointer-events: none;
+  cursor: pointer;
+}
+
+._cadence_status {
+  width: 8px;
+  height: 8px;
+  background-color: var(--softPeanut);
+  margin-right: 4px;
+  border-radius: 8px;
+}
+
+._cadence_status_started {
+  background-color: var(--grape);
+}

@@ -1,0 +1,46 @@
+._section_title__wrapper {
+  margin-bottom: 16px;
+}
+
+._section__wrapper {
+  margin-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+._list__wrapper {
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin-right: 15px;
+}
+
+._message__wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+}
+
+._message__wrapper > div {
+  margin-right: 23px;
+}
+
+._cadence_table__wrapper {
+  margin-top: 22px;
+  margin-bottom: 30px;
+}
+
+._buttons__wrapper {
+  display: flex;
+  width: 100%;
+}
+
+._buttons__wrapper > div {
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+._callout_change_date_wrapper {
+  margin-top: 10px;
+}

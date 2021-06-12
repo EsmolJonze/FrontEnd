@@ -1,0 +1,79 @@
+._container {
+  width: 504px;
+  height: auto;
+  background: var(--white);
+  box-shadow: 0px 2px 6px rgba(70, 79, 87, 0.403136);
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+._container:focus {
+  outline: none;
+}
+
+._header {
+  height: 88px;
+  background: var(--veryLightBloobirds);
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+._title {
+  margin-left: 40px;
+  align-items: center;
+  color: var(--peanut);
+  flex: 7 1;
+}
+
+._close_button {
+  flex: 1 1;
+}
+
+._content {
+  padding: 40px;
+  max-height: 515px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+._list_name {
+  margin-bottom: 40px;
+}
+
+._visibility {
+  margin-bottom: 48px;
+}
+
+._visibility_options {
+  margin-top: 20px;
+}
+
+._tags_lists {
+  margin-bottom: 28px;
+}
+
+._tags_items {
+  margin-top: 17px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+._add_tag_button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+._footer {
+  display: flex;
+  padding: 40px 0 0 0;
+  justify-content: space-between;
+}
+
+._tag__container {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}

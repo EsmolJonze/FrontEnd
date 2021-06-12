@@ -1,0 +1,13 @@
+._info_content {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+._info_title {
+  margin-bottom: 12px;
+}
+
+._tooltip {
+  margin-left: 4px;
+}

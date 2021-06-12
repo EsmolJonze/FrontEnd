@@ -1,0 +1,19 @@
+._first_cell {
+  display: flex;
+  justify-content: space-between;
+}
+
+._align_row_text > p {
+  padding-top: 4px;
+}
+._buttons {
+  display: flex;
+  padding-top: 4px;
+}
+._buttons > button {
+  margin-left: 6px;
+  height: 24px;
+}
+._buttons > button + svg {
+  margin: 0;
+}

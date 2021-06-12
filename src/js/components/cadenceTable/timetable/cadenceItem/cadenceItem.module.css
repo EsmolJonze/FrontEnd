@@ -1,0 +1,93 @@
+.root {
+  line-height: 29px;
+  display: flex;
+  flex-direction: row;
+  width: 75px;
+  justify-content: center;
+}
+
+.item {
+  border-radius: 100px;
+  min-width: 16px;
+  height: 16px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+  margin-top: 7px;
+  cursor: pointer;
+  color: white;
+}
+
+.itemBig {
+  border-radius: 100px;
+  height: 16px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+  margin-top: 7px;
+  min-width: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.itemMultiple {
+  border-radius: 100px;
+  height: 16px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+  margin-top: 7px;
+  width: 47px;
+  cursor: pointer;
+  color: white;
+}
+
+.middleMargin {
+  width: 4px;
+}
+
+.completedTasks {
+  display: flex;
+  flex-direction: row;
+}
+
+.completedDashes {
+  position: relative;
+  left: 3px;
+}
+
+.completedMultiple {
+  position: relative;
+  right: 25px;
+}
+
+.completedDashesMultiple {
+  position: relative;
+  left: 20px;
+}
+
+.completed {
+  position: relative;
+  right: 9px;
+}
+
+.notScheduledTasks {
+}
+
+.together {
+  position: relative;
+  left: 9px;
+}
+
+.togetherNotScheduled {
+  position: relative;
+  left: 4px;
+}
+
+.togetherNotScheduledMultiple {
+  position: relative;
+  left: -21px;
+}

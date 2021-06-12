@@ -1,0 +1,81 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value gunmetalLight, tomato, gunmetalNatural, verySoftTomato, bloobirdsNatural, bloobirdsVeryLight, bloobirdsVeryLightOcapity, bloobirdsSuperVeryLight, whiteNatural from colors;
+
+.dragAndDrop {
+  width: 420px;
+  height: 48px;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  border-radius: 4px;
+}
+
+.dragInBorder {
+  border: solid 1px bloobirdsNatural;
+  background-color: bloobirdsVeryLight;
+}
+
+.dragOutBorder {
+  border: dashed 1px bloobirdsVeryLight;
+  background-color: bloobirdsSuperVeryLight;
+  outline: none;
+}
+
+.text {
+  margin: 0px;
+  color: gunmetalLight;
+  text-align: center;
+}
+
+.textFileName {
+  margin: 0px;
+  color: gunmetalNatural;
+}
+
+.inputFile {
+  width: 0.1em;
+  height: 0.1em;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  zindex: -1;
+}
+
+.inputLabel {
+  margin: 0 4px;
+  text-decoration: underline;
+  color: bloobirdsNatural;
+}
+
+.inputLabel :hover {
+  cursor: pointer;
+}
+
+.title {
+  color: gunmetalNatural;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fileNameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.deleteFileIcon :hover {
+  cursor: pointer;
+}
+
+.dragInInvalid {
+  border: solid 1px tomato;
+  background-color: verySoftTomato;
+}
+
+.importTest {
+  margin-left: 20px;
+}

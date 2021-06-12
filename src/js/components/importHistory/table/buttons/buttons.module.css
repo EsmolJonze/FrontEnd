@@ -1,0 +1,26 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value bloobirdsNatural, tomato from colors;
+
+._btnDownload {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+._btnRevert {
+  color: tomato;
+}
+
+._btnRevertTextContainer {
+  display: flex;
+}
+
+._container {
+  display: flex;
+  align-items: center;
+}
+
+._textRevert {
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 5px;
+}

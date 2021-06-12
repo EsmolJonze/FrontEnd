@@ -1,0 +1,19 @@
+._container {
+  background-color: var(--lighterGray);
+  padding: 27px 24px;
+}
+
+._content {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+._lists {
+  margin: 40px auto 144px auto;
+}
+@media (max-width: 1500px) {
+  ._container {
+    max-width: 1172px;
+  }
+}

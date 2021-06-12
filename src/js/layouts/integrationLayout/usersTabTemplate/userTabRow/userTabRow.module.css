@@ -1,0 +1,18 @@
+._cell_text {
+  box-sizing: border-box;
+  padding-top: 6px;
+}
+._cell_select {
+}
+._cell_select > div {
+  padding: 0;
+}
+._icon_button {
+  display: flex;
+}
+._icon_button > p {
+  margin-right: 4px;
+}
+._icon_button > button {
+  margin-top: -6px;
+}

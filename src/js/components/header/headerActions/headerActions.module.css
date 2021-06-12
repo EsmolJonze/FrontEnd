@@ -1,0 +1,51 @@
+@value colors: "../../../../assets/stylesheets/colors.css";
+@value inboundNatural, gunmetalNatural from colors;
+
+._container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  margin-left: 12px;
+  margin-right: 40px;
+  justify-content: center;
+}
+
+._user_button {
+  align-items: center;
+  cursor: pointer;
+  display: inline-flex;
+  line-height: 24px;
+  margin: 0 24px;
+  padding: 28px 0;
+}
+
+._user_dropdown {
+  top: 100%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+._user_button_circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: inboundNatural;
+  margin-right: 12px;
+}
+
+._user_button_text {
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 8px;
+  color: gunmetalNatural;
+}
+
+._user_button_text:hover {
+  cursor: pointer;
+}
+
+._user_button_icon_container {
+  margin-left: 4px;
+}

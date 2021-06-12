@@ -1,0 +1,108 @@
+._company_link {
+  border: 1px solid var(--softPeanut);
+  margin-left: 4px;
+  margin-bottom: 4px;
+  width: 32px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+._company_link:hover {
+  background-color: #5f6770;
+}
+
+._input__container__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+._title__container {
+  margin-left: auto;
+}
+
+._input__container,
+._input__container__link {
+  margin-bottom: 16px;
+}
+
+._phone__container {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  background: rgba(26, 26, 26, 0.3181);
+  border-radius: 4px;
+}
+
+._phone_number {
+  background: none;
+  border: 0;
+  color: var(--melon);
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+  width: 100%;
+  text-align: center;
+}
+
+._phone_number:focus {
+  outline: none;
+}
+
+._buttons__container {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+._call_status_message__container,
+._call_method__container {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+._answerFromPhone__container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+._call_quality_message__container,
+._call_ended_message__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+._call_quality_container {
+  border-radius: 10px;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+}
+
+._call_quality_container__warning {
+  background-color: var(--softTangerine);
+}
+
+._call_quality_container__ok {
+  background-color: var(--melon);
+}
+
+._call_ended_message__container {
+  margin-bottom: 24px;
+}
+
+._footer_message__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}

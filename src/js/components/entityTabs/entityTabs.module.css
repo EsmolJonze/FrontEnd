@@ -1,0 +1,83 @@
+._targetMarketsList__container {
+  width: calc(100% - 52px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+._targetMarkets__container > button {
+}
+
+._targetMarkets__container {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin-right: 12px;
+}
+
+.targetMarkets__base {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  color: var(--white);
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid var(--white);
+  margin: 0 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.targetMarkets__entity__button {
+  composes: targetMarkets__base;
+  width: 48px;
+  height: 48px;
+  margin-right: 18px;
+}
+
+.targetMarkets__button {
+  composes: targetMarkets__base;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.targetMarkets__button:hover,
+.targetMarkets__button_selected {
+  opacity: 1;
+}
+
+.targetMarkets__button__text {
+}
+
+.targetMarkets__placeholder {
+  composes: targetMarkets__base;
+  background-color: var(--lightestBloobirds);
+}
+
+.createQC__container {
+  flex-basis: 280px;
+  flex-shrink: 0;
+}
+
+.targetMarketsRow__container {
+  display: flex;
+}
+
+._targetMarkets__title {
+  margin: 16px 0;
+}
+
+._targetMarkets__entity__container {
+  margin-top: 20px;
+  background-color: var(--lightBloobirds);
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(25, 145, 255, 0.084324);
+}
+
+._targetMarkets__entity__header {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+}

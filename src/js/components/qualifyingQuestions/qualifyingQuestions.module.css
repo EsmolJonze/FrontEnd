@@ -1,0 +1,11 @@
+.qualifyingQuestionList {
+  width: 80%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding-bottom: 156px;
+}
+
+.emptyContainer {
+  margin: 64px auto;
+  padding-bottom: 156px;
+}

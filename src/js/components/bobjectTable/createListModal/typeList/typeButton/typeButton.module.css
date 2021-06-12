@@ -1,0 +1,30 @@
+._container {
+  display: flex;
+  flex-direction: column;
+  width: 429px;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 20px 24px;
+  border: 1px solid #1991ff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+._header {
+  display: flex;
+  flex: 1;
+}
+
+._icon {
+  flex: 1;
+}
+
+._title {
+  flex: 10;
+}
+
+._body {
+  flex: 1;
+  margin-top: 6px;
+}

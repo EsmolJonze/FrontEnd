@@ -1,0 +1,47 @@
+._header__container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+._icon__container {
+  padding: 16px;
+  border-radius: 45px;
+  background-color: var(--lightestBloobirds);
+  border: 2px solid var(--veryLightBloobirds);
+  z-index: 1;
+}
+
+._divider {
+  border-bottom: 1px solid var(--veryLightBloobirds);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+._text__container {
+  margin-bottom: 4px;
+}
+
+._phone_number__wrapper {
+  display: flex;
+  margin-top: 8px;
+}
+
+._section__wrapper {
+  margin-bottom: 35px;
+}
+
+._phone_number__wrapper > div {
+  margin-right: 12px;
+}
+
+._callout_container {
+  margin-bottom: 56px;
+}
+
+._callout_container > *:first-child {
+  width: 100%;
+}

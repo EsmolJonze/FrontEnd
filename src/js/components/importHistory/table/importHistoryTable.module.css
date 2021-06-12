@@ -1,0 +1,53 @@
+._cellDownloadContainer {
+  display: flex;
+}
+._cellTextBlue {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--bloobirds);
+  margin: 0 32px 0 0;
+}
+._cellTextBlack {
+  display: flex;
+  justify-content: flex-end;
+  color: var(--peanut);
+  margin: 0;
+}
+._progressBar {
+  background-color: var(--softTangerine);
+  width: 114px;
+  height: 24px;
+  border-radius: 4px;
+  position: relative;
+}
+._progressBar > p {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+._progressBar > div {
+  box-sizing: border-box;
+  background-color: var(--tangerine);
+  border-radius: 4px;
+  height: 24px;
+  color: white;
+  padding: 4px 0px;
+}
+._label > div {
+  width: 80px;
+  text-align: center;
+}
+
+._statusCell > div {
+  display: flex;
+}
+._statusContainer {
+  display: flex;
+}
+._statusContainer > button {
+  padding: 0;
+  margin-left: 8px;
+}

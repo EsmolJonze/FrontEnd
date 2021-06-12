@@ -1,0 +1,16 @@
+._body {
+  width: 692px;
+  margin: 24px auto 0;
+}
+
+._card_list {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+._body_footer {
+  margin-top: 32px;
+  margin-bottom: 48px;
+}

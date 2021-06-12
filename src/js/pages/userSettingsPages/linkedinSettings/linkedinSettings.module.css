@@ -1,0 +1,53 @@
+._container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+._content__box {
+  width: 740px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+._heading__container {
+  margin-bottom: 28px;
+}
+
+._link {
+  color: var(--bloobirds);
+  cursor: pointer;
+}
+
+._text__box {
+  text-align: center;
+}
+
+._logo__container {
+  background-color: var(--bloobirds);
+  height: 60px;
+  width: 60px;
+  border: 2px solid #9acfff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 16px 19px;
+  margin-bottom: 20px;
+}
+
+._logo__container > svg {
+  fill: white;
+  height: 27px;
+  width: 21px;
+}
+
+._download__link {
+  composes: _link;
+  display: block;
+  margin-bottom: 28px;
+  font-size: 16px;
+  font-weight: 500;
+}

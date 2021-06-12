@@ -1,0 +1,9 @@
+._container {
+  height: calc(100% - 80px);
+  padding: 48px 40px;
+  margin-right: 72px;
+}
+
+._container > *:first-child {
+  margin-bottom: 16px;
+}

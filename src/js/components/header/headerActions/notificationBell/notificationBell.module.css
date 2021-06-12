@@ -1,0 +1,27 @@
+._wrap {
+  width: 400px;
+  padding: 8px 0 0 0;
+  min-height: 350px;
+  max-height: calc(100vh - 120px);
+  overflow: auto;
+}
+
+._header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding: 0 16px;
+}
+
+._link {
+  cursor: pointer;
+}
+
+._tabs_container > div:first-child > div:first-child > div:first-child {
+  margin-left: 20px;
+}
+
+._tabs_container > div:first-child > div:first-child > div {
+  min-height: 36px;
+}

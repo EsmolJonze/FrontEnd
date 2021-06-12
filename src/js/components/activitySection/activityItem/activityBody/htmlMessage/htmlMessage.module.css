@@ -1,0 +1,24 @@
+._email_wrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 24px;
+  overflow: hidden;
+}
+
+._email_wrapper_trimmed {
+  position: relative;
+  max-height: 156px;
+  overflow: hidden;
+}
+
+._email_wrapper_trimmed::after {
+  content: '';
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, 0) 80%, white);
+}

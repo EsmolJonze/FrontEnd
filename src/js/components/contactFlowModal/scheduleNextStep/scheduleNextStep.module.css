@@ -1,0 +1,56 @@
+._section__wrapper {
+  padding: 0 28px;
+  margin-bottom: 24px;
+}
+
+._title_input__wrapper {
+  margin-bottom: 28px;
+}
+
+._text__wrapper {
+  margin-bottom: 4px;
+}
+
+._time__wrapper {
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+._time__wrapper > div > div {
+  margin-right: 8px;
+  padding: 12px 15px;
+}
+
+._time__wrapper > div > div:last-child {
+  margin-right: 0;
+}
+
+._buttons__wrapper {
+  display: flex;
+  width: 100%;
+}
+
+._buttons__wrapper > button:nth-child(2) {
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+._next_step__wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+._datepicker__wrapper,
+._leads__wrapper {
+  width: 50%;
+}
+
+._datepicker__wrapper {
+  margin-right: 15px;
+}
+
+._datepicker__wrapper > div {
+  width: 100%;
+}

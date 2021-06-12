@@ -1,0 +1,54 @@
+.container {
+  height: 100vh;
+  background: url('/src/assets/birds.svg') no-repeat;
+  background-size: cover;
+  background-position-x: 30vh;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+
+.content {
+  padding-left: 100px;
+  padding-top: 200px;
+}
+
+.content > h1:first-child {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.text {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.background {
+  right: 0;
+  width: 50%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.link {
+  color: inherit;
+}
+
+.actions {
+  margin-top: 32px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}

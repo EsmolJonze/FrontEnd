@@ -1,0 +1,29 @@
+@value colors: "../../../../../assets/stylesheets/colors.css";
+@value gunmetalLight, gunmetalNatural from colors;
+
+._text {
+  color: gunmetalLight;
+}
+
+._title {
+  color: gunmetalNatural;
+}
+
+._root {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+._wrapper {
+  max-width: 33.333333%;
+}
+
+._inputs {
+  width: 400px;
+}
+
+._textContainer {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}

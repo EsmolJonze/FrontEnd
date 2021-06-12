@@ -1,0 +1,30 @@
+._container {
+  padding-bottom: 30px;
+  background-color: var(--lighterGray);
+}
+
+._info_box {
+  background-color: var(--white);
+  padding: 16px 40px;
+}
+
+._content {
+  display: flex;
+  padding-top: 54px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px 40px;
+}
+
+._content_left {
+  width: 230px;
+  padding: 0 30px 0 0;
+}
+
+._content_right {
+  padding: 0 0 0 30px;
+  width: calc(100vw - 180px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,20 @@
+@value colors: "../../../../assets/stylesheets/colors.css";
+@value bloobirdsNatural from colors;
+
+._bloobirds_logo {
+  height: 32px;
+  margin: 0 35px;
+}
+
+._left_container {
+  display: flex;
+  align-items: center;
+  margin-left: 36px;
+}
+
+._account_text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: bloobirdsNatural;
+}

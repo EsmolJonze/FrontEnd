@@ -1,0 +1,83 @@
+._container {
+  background-color: #f0f4f6;
+}
+
+._mainBlock__container {
+  width: 100%;
+}
+
+._without_cadence_wrapper {
+  width: 385px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 32px;
+}
+
+._message_wrapper {
+  margin-bottom: 8px;
+}
+
+._infoCard__container {
+  width: 328px;
+  height: 426px;
+  margin-right: 16px;
+}
+
+._leadList__container {
+  margin-top: 16px;
+}
+
+._info__container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._info__row {
+  display: flex;
+  max-width: 1280px;
+  width: 100%;
+}
+
+._info__column {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+._cadence__row {
+  margin-top: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._cadence__container {
+  max-width: 1280px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+  ._info__row,
+  ._cadence__container {
+    width: calc(100% - 40px);
+    max-width: 1172px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  ._info__row,
+  ._cadence__container {
+    width: calc(100% - 40px);
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  ._info__column {
+    max-width: 545px;
+  }
+}

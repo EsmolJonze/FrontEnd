@@ -1,0 +1,21 @@
+._container {
+  padding: 48px 60px;
+  background-color: var(--white);
+}
+
+._container > p {
+  margin-right: 12px;
+}
+
+._container > div {
+  margin-top: 32px;
+}
+
+._container > div > span > p {
+  display: inline;
+}
+
+._icon {
+  display: inline-block;
+  margin-right: 4px;
+}

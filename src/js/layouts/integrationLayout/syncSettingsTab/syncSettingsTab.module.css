@@ -1,0 +1,106 @@
+._sync_settings_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: 36px 60px 28px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+._sync_settings_card_title {
+  display: flex;
+  margin-bottom: 21px;
+}
+._sync_settings_card_title > p {
+  margin-left: 12px;
+}
+._sync_settings_card_children {
+  border: 1px solid #d4e0f1;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+._sync_settings_card_button {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+._children_lead_container {
+  box-sizing: border-box;
+  padding: 40px 245px 60px 32px;
+}
+._children_multiselect_container {
+  width: 100%;
+  border-top: 1px solid var(--lightBloobirds);
+}
+._children_multiselect {
+  box-sizing: border-box;
+  padding-top: 32px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+._children_lead_checkbox {
+  box-sizing: border-box;
+  padding-top: 20px;
+  width: fit-content;
+}
+._children_text {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 48px;
+  align-items: center;
+}
+._children_text > p {
+  margin-left: 4px;
+}
+._children_multiselect > * {
+  margin-right: 20px;
+}
+.children_activities_container {
+  box-sizing: border-box;
+  padding: 32px 32px 40px;
+}
+._children_small_checkbox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  width: fit-content;
+}
+._children_small_checkbox > p {
+  margin-bottom: 20px;
+}
+._children_small_checkbox > div {
+  margin-bottom: 24px;
+}
+._children_small_checkbox > div:last-child {
+  margin-bottom: 0;
+}
+._children_medium_checkbox_container {
+  width: 100%;
+  border-bottom: 1px solid var(--lightBloobirds);
+}
+._children_medium_checkbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+  width: 640px;
+}
+._children_medium_checkbox > * {
+  margin-bottom: 16px;
+}
+._children_salesforce_account_container {
+  box-sizing: border-box;
+  padding: 32px 0 52px 32px;
+}
+._children_salesforce_account_container > * {
+  margin-bottom: 20px;
+  width: 330px;
+}
+._children_salesforce_account_container > *:last-child {
+  margin-bottom: 0;
+}

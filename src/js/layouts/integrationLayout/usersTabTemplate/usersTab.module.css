@@ -1,0 +1,27 @@
+._header {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+._header > p {
+  margin-left: 12px;
+  margin-right: 16px;
+}
+._header > button {
+  width: 95px;
+}
+._users_sort {
+  cursor: pointer;
+  width: fit-content;
+  display: flex;
+}
+._users_sort > p {
+  margin-right: 4px;
+}
+._table {
+  margin-top: 16px;
+}
+._pagination {
+  display: flex;
+  justify-content: flex-end;
+}

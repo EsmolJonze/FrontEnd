@@ -1,0 +1,30 @@
+.root {
+  margin: 25px 0;
+}
+
+.row {
+  display: flex;
+  margin: 0 -10px;
+}
+
+@media (max-width: 1279px) {
+  .row {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .root {
+    margin-left: 40px;
+  }
+}
+
+.rowItem {
+  flex: 1;
+  margin: 0 10px;
+  min-width: calc(50% - 20px);
+}
+
+@media (max-width: 1279px) {
+  .rowItem {
+    margin: 10px 0;
+  }
+}

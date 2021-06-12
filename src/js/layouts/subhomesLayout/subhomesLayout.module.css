@@ -1,0 +1,27 @@
+._container {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+._info_container {
+  padding: 40px 20px 0 50px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+._header {
+  display: flex;
+  justify-content: space-between;
+}
+
+._visibility_button {
+  align-self: flex-end;
+}
+
+._title {
+  align-self: flex-start;
+}
+
+._collapse_content {
+  padding-bottom: 60px;
+}

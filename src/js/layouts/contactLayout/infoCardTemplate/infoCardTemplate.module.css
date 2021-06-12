@@ -1,0 +1,101 @@
+._container {
+  width: 328px;
+  border: solid 1px var(--veryLightBloobirds);
+  height: 435px;
+  display: flex;
+  box-shadow: 0 2px 4px 0 rgba(25, 145, 255, 0.08);
+  box-sizing: border-box;
+  min-height: fit-content;
+  align-items: center;
+  border-radius: 4px;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 16px;
+  position: relative;
+}
+
+._info__container {
+  display: flex;
+  margin-left: auto;
+  position: absolute;
+  right: 16px;
+}
+
+._mr_rating__container {
+  margin-left: 4px;
+}
+
+._target_market__container {
+  margin-bottom: 10px;
+}
+
+._name__container {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+._name_text__container {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+._name_text__container:hover {
+  cursor: pointer;
+}
+
+._edit_icon {
+  visibility: hidden;
+}
+
+._edit_icon__visible {
+  visibility: visible;
+}
+
+._status__container {
+  margin-bottom: 16px;
+}
+
+._assignTo__container {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._assignTo__container > div {
+  margin-right: 5px;
+}
+
+._fields__container {
+  display: flex;
+  align-items: flex-start;
+  width: 235px;
+  padding-left: 30px;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+._fields__container:hover {
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+}
+
+._field__container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+._field__container > div > svg {
+  margin-right: 4px;
+}
+
+._field_link {
+  font-size: 14px;
+  color: var(--bloobirds);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 210px;
+}

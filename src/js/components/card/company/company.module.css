@@ -1,0 +1,54 @@
+._container {
+  margin: auto;
+}
+
+._company_source {
+  margin-right: 24px;
+  width: 64px;
+  text-align: left;
+}
+
+._company_status {
+  display: flex;
+  padding-right: 16px;
+  flex: 1 1 0;
+}
+
+._company_name {
+  text-decoration: none;
+  color: var(--bloobirds);
+  margin-right: 24px;
+  width: 120px;
+  text-align: justify;
+  text-overflow: ellipsis;
+}
+
+._company_name:hover {
+  cursor: pointer;
+}
+
+._company_name:visited {
+  color: var(--bloobirds);
+}
+
+._content_left_container {
+  padding-left: 16px;
+}
+
+._content_right_container {
+  width: 400px;
+}
+
+._last_attempt_wrapper {
+  text-align: right;
+}
+
+@media only screen and (max-width: 1440px) {
+  ._company_name {
+    width: 80px;
+  }
+}
+
+._right_buttons > *:not(:first-of-type) {
+  margin-left: 8px;
+}
