@@ -1,14 +1,16 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Test') {
       steps {
-        sh 'sh \'yarn install\''
+        sh ''' steps {
+         sh \'git branch\'
+}'''
+        }
       }
-    }
 
+    }
+    environment {
+      ttt = 'ttt'
+    }
   }
-  environment {
-    ttt = 'ttt'
-  }
-}
